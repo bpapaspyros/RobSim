@@ -1,0 +1,4 @@
+<map id="Gui_sim::end_sim" name="Gui_sim::end_sim">
+<area shape="rect" id="node3" href="$class_robot__management.html#ac1a9ddc1089b1f4a26e7a7effef79142" title="Robot_management::emptyList" alt="" coords="183,5,385,35"/>
+<area shape="rect" id="node5" href="$class_map.html#a904c445fdce79257fedeba09070cf88a" title="Map::reset" alt="" coords="243,59,325,88"/>
+</map>

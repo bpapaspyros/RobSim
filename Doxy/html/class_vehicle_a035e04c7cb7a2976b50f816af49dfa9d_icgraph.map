@@ -1,0 +1,4 @@
+<map id="Vehicle::get_status" name="Vehicle::get_status">
+<area shape="rect" id="node3" href="$class_probability.html#af53f1705884b7d1b1fd658e3b525ee38" title="Probability::takeDamage" alt="" coords="189,5,355,35"/>
+<area shape="rect" id="node5" href="$class_gui__sim.html#ae290c48db83ff530e74f79692a1cfc69" title="Gui_sim::runSim" alt="" coords="404,5,521,35"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Map::reset" name="Map::reset">
+<area shape="rect" id="node3" href="$class_gui__sim.html#abb1df0449546eb8b1004a6160291ecad" title="Gui_sim::start_new_sim" alt="" coords="139,5,301,35"/>
+<area shape="rect" id="node9" href="$class_gui__sim.html#acf8e3da57fa2a597e6fed331ed7c0998" title="Gui_sim::end_sim" alt="" coords="157,59,283,88"/>
+<area shape="rect" id="node5" href="$class_gui.html#aa6ed2f385b49764852f9bb09ed9198ff" title="Gui::init" alt="" coords="349,5,416,35"/>
+<area shape="rect" id="node7" href="$gui_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="464,5,515,35"/>
+</map>

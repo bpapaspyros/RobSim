@@ -1,0 +1,6 @@
+<map id="Vehicle::get_pos_y" name="Vehicle::get_pos_y">
+<area shape="rect" id="node3" href="$class_analysis_robot.html#a496ce06a9eee3fcbb521dd6eb9ef7947" title="AnalysisRobot::operate" alt="" coords="191,5,348,35"/>
+<area shape="rect" id="node5" href="$class_rescue_robot.html#a59762f159a621047e2ffc0be0cf46c9d" title="RescueRobot::operate" alt="" coords="193,59,345,88"/>
+<area shape="rect" id="node7" href="$class_research_robot.html#a275cc9e973d7c2b28a0346d485905b08" title="ResearchRobot::operate" alt="" coords="188,112,351,141"/>
+<area shape="rect" id="node9" href="$class_vehicle.html#a7e287f67c54968a70d46ce63a94e9c63" title="Vehicle::move" alt="" coords="217,165,321,195"/>
+</map>

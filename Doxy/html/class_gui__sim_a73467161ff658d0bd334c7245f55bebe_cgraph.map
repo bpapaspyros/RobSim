@@ -1,0 +1,4 @@
+<map id="Gui_sim::removeRobotPos" name="Gui_sim::removeRobotPos">
+<area shape="rect" id="node3" href="$class_robot__management.html#a9f55e341be1e0c8d5a532b63a31b5115" title="Robot_management::checkFor\lRobots" alt="" coords="233,5,433,51"/>
+<area shape="rect" id="node5" href="$class_robot__management.html#aeda3aa818ca41a1825f40325aea1ca3c" title="Robot_management::delete\l_robot" alt="" coords="243,74,424,121"/>
+</map>

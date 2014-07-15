@@ -1,0 +1,13 @@
+<map id="Gui_sim::runSim" name="Gui_sim::runSim">
+<area shape="rect" id="node3" href="$class_probability.html#af53f1705884b7d1b1fd658e3b525ee38" title="Probability::takeDamage" alt="" coords="180,99,345,128"/>
+<area shape="rect" id="node15" href="$class_map.html#a1c6b0a40d53eab7cdba41b705a1cce11" title="Map::get_danger" alt="" coords="204,152,321,181"/>
+<area shape="rect" id="node17" href="$class_simulation_status.html#a5b08c84c0472d7ffb1b27e25527c44b8" title="SimulationStatus::fail" alt="" coords="189,205,336,235"/>
+<area shape="rect" id="node19" href="$class_simulation_status.html#a536b34bf815fc21ac19e47b3505f4fd8" title="SimulationStatus::success" alt="" coords="173,259,352,288"/>
+<area shape="rect" id="node5" href="$class_probability.html#a06a7e084593bdffb6a2a606f171cc49e" title="Probability::calc_probability" alt="" coords="400,5,581,35"/>
+<area shape="rect" id="node7" href="$class_vehicle.html#a2ca803306acbd7f5876f6a22023470c2" title="Vehicle::get_ability" alt="" coords="425,59,556,88"/>
+<area shape="rect" id="node9" href="$class_vehicle.html#a87b875939c76d2a2f984811f60dd2af4" title="Vehicle::set_status" alt="" coords="424,112,557,141"/>
+<area shape="rect" id="node13" href="$class_vehicle.html#a035e04c7cb7a2976b50f816af49dfa9d" title="Vehicle::get_status" alt="" coords="424,165,557,195"/>
+<area shape="rect" id="node11" href="$class_vehicle.html#abebe961f59c383b6ae23c1eb9a011519" title="Vehicle::set_velocity" alt="" coords="631,112,772,141"/>
+<area shape="rect" id="node21" href="$class_map.html#adef9516dd475e67aa7f819a6a358f668" title="Map::get_height" alt="" coords="433,232,548,261"/>
+<area shape="rect" id="node23" href="$class_map.html#a38609ea6ce07bc5bb2ea55db6580b355" title="Map::get_width" alt="" coords="436,285,545,315"/>
+</map>

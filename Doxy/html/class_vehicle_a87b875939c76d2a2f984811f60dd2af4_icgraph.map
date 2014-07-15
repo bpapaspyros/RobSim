@@ -1,0 +1,7 @@
+<map id="Vehicle::set_status" name="Vehicle::set_status">
+<area shape="rect" id="node3" href="$class_analysis_robot.html#a4bc986573a8c243c3491e2c31099a50b" title="AnalysisRobot::AnalysisRobot" alt="" coords="196,5,396,35"/>
+<area shape="rect" id="node5" href="$class_probability.html#af53f1705884b7d1b1fd658e3b525ee38" title="Probability::takeDamage" alt="" coords="213,59,379,88"/>
+<area shape="rect" id="node9" href="$class_rescue_robot.html#a74d8804d8bd465c17913a47676a167a0" title="RescueRobot::RescueRobot" alt="" coords="201,112,391,141"/>
+<area shape="rect" id="node11" href="$class_research_robot.html#a9a80e8a64a4b95b19e965761b4c33b17" title="ResearchRobot::ResearchRobot" alt="" coords="191,165,401,195"/>
+<area shape="rect" id="node7" href="$class_gui__sim.html#ae290c48db83ff530e74f79692a1cfc69" title="Gui_sim::runSim" alt="" coords="452,59,569,88"/>
+</map>

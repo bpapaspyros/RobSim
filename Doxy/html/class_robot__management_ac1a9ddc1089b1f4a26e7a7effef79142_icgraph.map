@@ -1,0 +1,6 @@
+<map id="Robot_management::emptyList" name="Robot_management::emptyList">
+<area shape="rect" id="node3" href="$class_gui__sim.html#abb1df0449546eb8b1004a6160291ecad" title="Gui_sim::start_new_sim" alt="" coords="259,5,421,35"/>
+<area shape="rect" id="node9" href="$class_gui__sim.html#acf8e3da57fa2a597e6fed331ed7c0998" title="Gui_sim::end_sim" alt="" coords="277,59,403,88"/>
+<area shape="rect" id="node5" href="$class_gui.html#aa6ed2f385b49764852f9bb09ed9198ff" title="Gui::init" alt="" coords="469,5,536,35"/>
+<area shape="rect" id="node7" href="$gui_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="584,5,635,35"/>
+</map>

@@ -1,0 +1,6 @@
+<map id="Robot_management::addRobot" name="Robot_management::addRobot">
+<area shape="rect" id="node3" href="$class_gui__sim.html#abb1df0449546eb8b1004a6160291ecad" title="Gui_sim::start_new_sim" alt="" coords="256,5,419,35"/>
+<area shape="rect" id="node9" href="$class_gui__sim.html#ad4feb119972837ac03d9e1dbe573211e" title="Gui_sim::addRobotPos" alt="" coords="259,59,416,88"/>
+<area shape="rect" id="node5" href="$class_gui.html#aa6ed2f385b49764852f9bb09ed9198ff" title="Gui::init" alt="" coords="467,5,533,35"/>
+<area shape="rect" id="node7" href="$gui_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="581,5,632,35"/>
+</map>

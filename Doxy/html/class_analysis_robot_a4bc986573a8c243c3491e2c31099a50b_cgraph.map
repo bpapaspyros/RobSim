@@ -1,0 +1,6 @@
+<map id="AnalysisRobot::AnalysisRobot" name="AnalysisRobot::AnalysisRobot">
+<area shape="rect" id="node3" href="$class_vehicle.html#a933de97259d52a073e167cb4902cf272" title="Vehicle::set_type" alt="" coords="263,5,385,35"/>
+<area shape="rect" id="node5" href="$class_vehicle.html#a33fa7c0df43c6f1de03339745ba226e7" title="Vehicle::set_num_id" alt="" coords="255,59,393,88"/>
+<area shape="rect" id="node7" href="$class_vehicle.html#a87b875939c76d2a2f984811f60dd2af4" title="Vehicle::set_status" alt="" coords="257,112,391,141"/>
+<area shape="rect" id="node9" href="$class_vehicle.html#abebe961f59c383b6ae23c1eb9a011519" title="Vehicle::set_velocity" alt="" coords="444,112,585,141"/>
+</map>

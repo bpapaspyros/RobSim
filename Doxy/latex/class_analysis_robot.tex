@@ -1,0 +1,170 @@
+\hypertarget{class_analysis_robot}{\section{Analysis\-Robot Class Reference}
+\label{class_analysis_robot}\index{Analysis\-Robot@{Analysis\-Robot}}
+}
+
+
+{\ttfamily \#include $<$Analysis\-Robot.\-h$>$}
+
+
+
+Inheritance diagram for Analysis\-Robot\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_analysis_robot__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Analysis\-Robot\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=160pt]{class_analysis_robot__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_analysis_robot_a4bc986573a8c243c3491e2c31099a50b}{Analysis\-Robot} (int id, const int width, const int height)
+\item 
+virtual void \hyperlink{class_analysis_robot_a496ce06a9eee3fcbb521dd6eb9ef7947}{operate} (\hyperlink{class_map}{Map} \&m)
+\item 
+float \hyperlink{class_analysis_robot_a054aeffeadbe44c99bff3ca9069d3f5d}{get\-\_\-total\-\_\-p} ()
+\item 
+float \hyperlink{class_analysis_robot_a4b673c341a4c706a99ad0df16b2ad1f6}{get\-\_\-total\-\_\-g} ()
+\item 
+float \hyperlink{class_analysis_robot_ab72c7c197faef7c9e30f502414a15b50}{get\-\_\-total\-\_\-i} ()
+\item 
+float \hyperlink{class_analysis_robot_a69ab14d80084ad9c5f0d7be077b04a65}{get\-\_\-total\-\_\-res\-\_\-picked} ()
+\item 
+virtual void \hyperlink{class_analysis_robot_a984f9a02843c487538dcb8029f15ce1f}{export\-\_\-info} (float \&p, float \&g, float \&i, float \&tot)
+\item 
+virtual void \hyperlink{class_analysis_robot_a090c8f17c57af7c3073905fa9bedbf2c}{export\-\_\-total\-\_\-info} (float \&tp, float \&tg, float \&ti, float \&total\-\_\-res)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+float \hyperlink{class_analysis_robot_a1cc3b0734f5e183c01aedf9fb563e9bb}{inventory} \mbox{[}3\mbox{]}
+\item 
+float \hyperlink{class_analysis_robot_a14ed4ba869e1dedc9100c1ce357b235d}{rem\-Load}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_analysis_robot_a4bc986573a8c243c3491e2c31099a50b}{\index{Analysis\-Robot@{Analysis\-Robot}!Analysis\-Robot@{Analysis\-Robot}}
+\index{Analysis\-Robot@{Analysis\-Robot}!AnalysisRobot@{Analysis\-Robot}}
+\subsubsection[{Analysis\-Robot}]{\setlength{\rightskip}{0pt plus 5cm}Analysis\-Robot\-::\-Analysis\-Robot (
+\begin{DoxyParamCaption}
+\item[{int}]{id, }
+\item[{const int}]{width, }
+\item[{const int}]{height}
+\end{DoxyParamCaption}
+)}}\label{class_analysis_robot_a4bc986573a8c243c3491e2c31099a50b}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_analysis_robot_a4bc986573a8c243c3491e2c31099a50b_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_analysis_robot_a984f9a02843c487538dcb8029f15ce1f}{\index{Analysis\-Robot@{Analysis\-Robot}!export\-\_\-info@{export\-\_\-info}}
+\index{export\-\_\-info@{export\-\_\-info}!AnalysisRobot@{Analysis\-Robot}}
+\subsubsection[{export\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}void Analysis\-Robot\-::export\-\_\-info (
+\begin{DoxyParamCaption}
+\item[{float \&}]{p, }
+\item[{float \&}]{g, }
+\item[{float \&}]{i, }
+\item[{float \&}]{tot}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_analysis_robot_a984f9a02843c487538dcb8029f15ce1f}
+
+
+Reimplemented from \hyperlink{class_vehicle_a3e3cc666c76c42178e942363585ff1b7}{Vehicle}.
+
+\hypertarget{class_analysis_robot_a090c8f17c57af7c3073905fa9bedbf2c}{\index{Analysis\-Robot@{Analysis\-Robot}!export\-\_\-total\-\_\-info@{export\-\_\-total\-\_\-info}}
+\index{export\-\_\-total\-\_\-info@{export\-\_\-total\-\_\-info}!AnalysisRobot@{Analysis\-Robot}}
+\subsubsection[{export\-\_\-total\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}void Analysis\-Robot\-::export\-\_\-total\-\_\-info (
+\begin{DoxyParamCaption}
+\item[{float \&}]{tp, }
+\item[{float \&}]{tg, }
+\item[{float \&}]{ti, }
+\item[{float \&}]{total\-\_\-res}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_analysis_robot_a090c8f17c57af7c3073905fa9bedbf2c}
+
+
+Reimplemented from \hyperlink{class_vehicle_ae2840b7627d758e5019a6fdd83a229a9}{Vehicle}.
+
+\hypertarget{class_analysis_robot_a4b673c341a4c706a99ad0df16b2ad1f6}{\index{Analysis\-Robot@{Analysis\-Robot}!get\-\_\-total\-\_\-g@{get\-\_\-total\-\_\-g}}
+\index{get\-\_\-total\-\_\-g@{get\-\_\-total\-\_\-g}!AnalysisRobot@{Analysis\-Robot}}
+\subsubsection[{get\-\_\-total\-\_\-g}]{\setlength{\rightskip}{0pt plus 5cm}float Analysis\-Robot\-::get\-\_\-total\-\_\-g (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_analysis_robot_a4b673c341a4c706a99ad0df16b2ad1f6}
+\hypertarget{class_analysis_robot_ab72c7c197faef7c9e30f502414a15b50}{\index{Analysis\-Robot@{Analysis\-Robot}!get\-\_\-total\-\_\-i@{get\-\_\-total\-\_\-i}}
+\index{get\-\_\-total\-\_\-i@{get\-\_\-total\-\_\-i}!AnalysisRobot@{Analysis\-Robot}}
+\subsubsection[{get\-\_\-total\-\_\-i}]{\setlength{\rightskip}{0pt plus 5cm}float Analysis\-Robot\-::get\-\_\-total\-\_\-i (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_analysis_robot_ab72c7c197faef7c9e30f502414a15b50}
+\hypertarget{class_analysis_robot_a054aeffeadbe44c99bff3ca9069d3f5d}{\index{Analysis\-Robot@{Analysis\-Robot}!get\-\_\-total\-\_\-p@{get\-\_\-total\-\_\-p}}
+\index{get\-\_\-total\-\_\-p@{get\-\_\-total\-\_\-p}!AnalysisRobot@{Analysis\-Robot}}
+\subsubsection[{get\-\_\-total\-\_\-p}]{\setlength{\rightskip}{0pt plus 5cm}float Analysis\-Robot\-::get\-\_\-total\-\_\-p (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_analysis_robot_a054aeffeadbe44c99bff3ca9069d3f5d}
+\hypertarget{class_analysis_robot_a69ab14d80084ad9c5f0d7be077b04a65}{\index{Analysis\-Robot@{Analysis\-Robot}!get\-\_\-total\-\_\-res\-\_\-picked@{get\-\_\-total\-\_\-res\-\_\-picked}}
+\index{get\-\_\-total\-\_\-res\-\_\-picked@{get\-\_\-total\-\_\-res\-\_\-picked}!AnalysisRobot@{Analysis\-Robot}}
+\subsubsection[{get\-\_\-total\-\_\-res\-\_\-picked}]{\setlength{\rightskip}{0pt plus 5cm}float Analysis\-Robot\-::get\-\_\-total\-\_\-res\-\_\-picked (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_analysis_robot_a69ab14d80084ad9c5f0d7be077b04a65}
+\hypertarget{class_analysis_robot_a496ce06a9eee3fcbb521dd6eb9ef7947}{\index{Analysis\-Robot@{Analysis\-Robot}!operate@{operate}}
+\index{operate@{operate}!AnalysisRobot@{Analysis\-Robot}}
+\subsubsection[{operate}]{\setlength{\rightskip}{0pt plus 5cm}void Analysis\-Robot\-::operate (
+\begin{DoxyParamCaption}
+\item[{{\bf Map} \&}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_analysis_robot_a496ce06a9eee3fcbb521dd6eb9ef7947}
+
+
+Implements \hyperlink{class_vehicle_a6a0ed71ee9d4c569ee26961b213775db}{Vehicle}.
+
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_analysis_robot_a496ce06a9eee3fcbb521dd6eb9ef7947_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_analysis_robot_a1cc3b0734f5e183c01aedf9fb563e9bb}{\index{Analysis\-Robot@{Analysis\-Robot}!inventory@{inventory}}
+\index{inventory@{inventory}!AnalysisRobot@{Analysis\-Robot}}
+\subsubsection[{inventory}]{\setlength{\rightskip}{0pt plus 5cm}float Analysis\-Robot\-::inventory\mbox{[}3\mbox{]}}}\label{class_analysis_robot_a1cc3b0734f5e183c01aedf9fb563e9bb}
+\hypertarget{class_analysis_robot_a14ed4ba869e1dedc9100c1ce357b235d}{\index{Analysis\-Robot@{Analysis\-Robot}!rem\-Load@{rem\-Load}}
+\index{rem\-Load@{rem\-Load}!AnalysisRobot@{Analysis\-Robot}}
+\subsubsection[{rem\-Load}]{\setlength{\rightskip}{0pt plus 5cm}float Analysis\-Robot\-::rem\-Load}}\label{class_analysis_robot_a14ed4ba869e1dedc9100c1ce357b235d}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/baios/\-Cpp\-\_\-\-Projects/\-Cpp\-Ceid/include/backend/\hyperlink{_analysis_robot_8h}{Analysis\-Robot.\-h}\item 
+/home/baios/\-Cpp\-\_\-\-Projects/\-Cpp\-Ceid/src/backend/\hyperlink{_analysis_robot_8cpp}{Analysis\-Robot.\-cpp}\end{DoxyCompactItemize}

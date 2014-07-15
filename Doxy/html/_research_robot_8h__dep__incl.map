@@ -1,0 +1,21 @@
+<map id="/home/baios/Cpp_Projects/CppCeid/include/backend/ResearchRobot.h" name="/home/baios/Cpp_Projects/CppCeid/include/backend/ResearchRobot.h">
+<area shape="rect" id="node3" href="$_probability_8h.html" title="/home/baios/Cpp_Projects\l/CppCeid/include/backend\l/Probability.h" alt="" coords="464,117,640,181"/>
+<area shape="rect" id="node22" href="$_robot__management_8h.html" title="/home/baios/Cpp_Projects\l/CppCeid/include/backend\l/Robot_management.h" alt="" coords="1709,117,1885,181"/>
+<area shape="rect" id="node34" href="$_research_robot_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/backend/ResearchRobot.cpp" alt="" coords="2623,238,2895,285"/>
+<area shape="rect" id="node5" href="$_gui_8h.html" title="/home/baios/Cpp_Projects\l/CppCeid/include/frontend\l/Gui/Gui.h" alt="" coords="105,341,281,405"/>
+<area shape="rect" id="node11" href="$_gui__sim_8h.html" title="/home/baios/Cpp_Projects\l/CppCeid/include/frontend\l/Gui/Gui_sim.h" alt="" coords="401,229,577,293"/>
+<area shape="rect" id="node16" href="$_probability_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/backend/Probability.cpp" alt="" coords="135,238,377,285"/>
+<area shape="rect" id="node18" href="$_vehicle_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/backend/Vehicle.cpp" alt="" coords="652,238,876,285"/>
+<area shape="rect" id="node20" href="$_console__graphics_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/frontend/Console\l/Console_graphics.cpp" alt="" coords="2228,341,2431,405"/>
+<area shape="rect" id="node7" href="$_gui_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/frontend/Gui\l/Gui.cpp" alt="" coords="5,453,181,517"/>
+<area shape="rect" id="node9" href="$gui_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/gui.cpp" alt="" coords="205,462,381,509"/>
+<area shape="rect" id="node14" href="$_gui__sim_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/frontend/Gui\l/Gui_sim.cpp" alt="" coords="401,341,577,405"/>
+<area shape="rect" id="node24" href="$_console__graphics_8h.html" title="/home/baios/Cpp_Projects\l/CppCeid/include/frontend\l/Console/Console_graphics.h" alt="" coords="2407,229,2599,293"/>
+<area shape="rect" id="node30" href="$_analysis_robot_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/backend/AnalysisRobot.cpp" alt="" coords="900,238,1167,285"/>
+<area shape="rect" id="node32" href="$_rescue_robot_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/backend/RescueRobot.cpp" alt="" coords="1191,238,1452,285"/>
+<area shape="rect" id="node36" href="$_robot__management_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/backend/Robot\l_management.cpp" alt="" coords="1476,229,1665,293"/>
+<area shape="rect" id="node38" href="$_simulation_status_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/backend/Simulation\lStatus.cpp" alt="" coords="1689,229,1905,293"/>
+<area shape="rect" id="node42" href="$_console__info_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/frontend/Console\l/Console_info.cpp" alt="" coords="1929,229,2132,293"/>
+<area shape="rect" id="node44" href="$_gui__menus_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/frontend/Gui\l/Gui_menus.cpp" alt="" coords="2156,229,2332,293"/>
+<area shape="rect" id="node26" href="$console_8cpp.html" title="/home/baios/Cpp_Projects\l/CppCeid/src/console.cpp" alt="" coords="2455,350,2631,397"/>
+</map>

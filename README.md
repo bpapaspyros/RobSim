@@ -1,4 +1,31 @@
-RobSim
-======
+* To compile the program and produce the executables
 
-Project for the course "Object Oriented Programming II" of the 3rd semester.  The purpose of this project is to use the object oriented functionality of the C++ language to create a small scale simulator.   There has been extensive use of the freeglut/opengl frameworks to create a graphic representation of the program.
+> Installing Dependancies:
+
+```
+sudo apt-get install freeglut3-dev libxmu-dev libxi-dev libsoil-dev cmake
+```
+
+> Compiling:
+
+```
+mkdir build && cd build
+cmake ..
+make (-j #cores if available)
+cd ../bin
+```
+> Running:
+
+Without Graphics - Console Version
+
+```
+./Robsim
+```
+
+With Graphics
+
+```
+./RobsimGui
+```
+
+* There is a generated doxy for the code documentation, just run the script doxy.sh. There is also a pdf report (in Greek) with a short desription of the projects purposes and the outcome.

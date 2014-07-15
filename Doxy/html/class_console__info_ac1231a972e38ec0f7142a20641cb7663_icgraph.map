@@ -1,0 +1,6 @@
+<map id="Console_info::robot_info" name="Console_info::robot_info">
+<area shape="rect" id="node3" href="$class_console__info.html#a2ade25393df6aab1fa014363b002b372" title="Console_info::robot_info" alt="" coords="223,5,385,35"/>
+<area shape="rect" id="node5" href="$class_console__info.html#afa4567c4eeccc5ea70fe33a0bcfef4fd" title="Console_info::general_info" alt="" coords="216,59,392,88"/>
+<area shape="rect" id="node7" href="$class_console__info.html#ac75c6db03c6bda9b33de56696b6a18d4" title="Console_info::success" alt="" coords="440,32,595,61"/>
+<area shape="rect" id="node9" href="$class_console__info.html#a29875cecf1aa23eceac4bb46d4df7598" title="Console_info::fail" alt="" coords="456,85,579,115"/>
+</map>

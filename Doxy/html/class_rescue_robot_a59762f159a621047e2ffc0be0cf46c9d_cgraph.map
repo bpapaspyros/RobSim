@@ -1,0 +1,12 @@
+<map id="RescueRobot::operate" name="RescueRobot::operate">
+<area shape="rect" id="node3" href="$class_map.html#a38609ea6ce07bc5bb2ea55db6580b355" title="Map::get_width" alt="" coords="255,5,364,35"/>
+<area shape="rect" id="node5" href="$class_map.html#adef9516dd475e67aa7f819a6a358f668" title="Map::get_height" alt="" coords="252,59,367,88"/>
+<area shape="rect" id="node7" href="$class_vehicle.html#a7c78e8942102b824144cc227984ea988" title="Vehicle::checkRobotDeath" alt="" coords="220,112,399,141"/>
+<area shape="rect" id="node13" href="$class_vehicle.html#a9528f57214d74276572e7b3858715b40" title="Vehicle::get_pos_x" alt="" coords="243,165,376,195"/>
+<area shape="rect" id="node15" href="$class_vehicle.html#af1ffe0bf89d9cdc3f55033d73d8fb283" title="Vehicle::get_pos_y" alt="" coords="243,219,376,248"/>
+<area shape="rect" id="node17" href="$class_robot__management.html#a9f55e341be1e0c8d5a532b63a31b5115" title="Robot_management::checkFor\lRobots" alt="" coords="209,271,409,318"/>
+<area shape="rect" id="node19" href="$class_vehicle.html#a3957f26debbf0726bf983d70ebd9b334" title="Vehicle::get_type" alt="" coords="248,341,371,371"/>
+<area shape="rect" id="node21" href="$class_vehicle.html#a8b95156ffce6a2defece8cdda3405449" title="Vehicle::get_num_id" alt="" coords="240,395,379,424"/>
+<area shape="rect" id="node9" href="$class_vehicle.html#a5295b6b7ebd67c074896604d06f30b53" title="Vehicle::set_pos_x" alt="" coords="459,85,592,115"/>
+<area shape="rect" id="node11" href="$class_vehicle.html#a91b3331fbf7fa63198b22ded702a6a44" title="Vehicle::set_pos_y" alt="" coords="459,139,592,168"/>
+</map>

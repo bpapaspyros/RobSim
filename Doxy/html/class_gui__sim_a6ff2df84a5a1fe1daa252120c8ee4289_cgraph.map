@@ -1,0 +1,4 @@
+<map id="Gui_sim::init" name="Gui_sim::init">
+<area shape="rect" id="node3" href="$class_map.html#a38609ea6ce07bc5bb2ea55db6580b355" title="Map::get_width" alt="" coords="152,5,261,35"/>
+<area shape="rect" id="node5" href="$class_map.html#adef9516dd475e67aa7f819a6a358f668" title="Map::get_height" alt="" coords="149,59,264,88"/>
+</map>

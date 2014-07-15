@@ -1,0 +1,9 @@
+<map id="Map::get_width" name="Map::get_width">
+<area shape="rect" id="node3" href="$class_rescue_robot.html#a59762f159a621047e2ffc0be0cf46c9d" title="RescueRobot::operate" alt="" coords="179,5,331,35"/>
+<area shape="rect" id="node5" href="$class_simulation_status.html#a536b34bf815fc21ac19e47b3505f4fd8" title="SimulationStatus::success" alt="" coords="165,59,344,88"/>
+<area shape="rect" id="node9" href="$class_gui__sim.html#a6ff2df84a5a1fe1daa252120c8ee4289" title="Gui_sim::init" alt="" coords="208,112,301,141"/>
+<area shape="rect" id="node15" href="$class_gui__sim.html#ac6cf2c2801ef0ed361d0c008af1af029" title="Gui_sim::draw_map" alt="" coords="185,165,324,195"/>
+<area shape="rect" id="node7" href="$class_gui__sim.html#ae290c48db83ff530e74f79692a1cfc69" title="Gui_sim::runSim" alt="" coords="393,59,511,88"/>
+<area shape="rect" id="node11" href="$class_gui.html#aa6ed2f385b49764852f9bb09ed9198ff" title="Gui::init" alt="" coords="419,112,485,141"/>
+<area shape="rect" id="node13" href="$gui_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="560,112,611,141"/>
+</map>

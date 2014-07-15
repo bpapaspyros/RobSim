@@ -1,0 +1,5 @@
+<map id="Gui_shapes::square" name="Gui_shapes::square">
+<area shape="rect" id="node3" href="$class_gui__menus.html#a9a6a464bbe50b7895ce2f09f09d7c752" title="Gui_menus::controls" alt="" coords="200,5,341,35"/>
+<area shape="rect" id="node5" href="$class_gui__sim.html#a9577f2cf114ebc2575c155a83f26c826" title="Gui_sim::draw_custom\l_square" alt="" coords="193,58,348,105"/>
+<area shape="rect" id="node7" href="$class_gui__sim.html#ac6cf2c2801ef0ed361d0c008af1af029" title="Gui_sim::draw_map" alt="" coords="397,97,536,127"/>
+</map>

@@ -1,0 +1,4 @@
+<map id="Map::get_danger" name="Map::get_danger">
+<area shape="rect" id="node3" href="$class_vehicle.html#a7e287f67c54968a70d46ce63a94e9c63" title="Vehicle::move" alt="" coords="181,5,285,35"/>
+<area shape="rect" id="node5" href="$class_gui__sim.html#ae290c48db83ff530e74f79692a1cfc69" title="Gui_sim::runSim" alt="" coords="175,59,292,88"/>
+</map>

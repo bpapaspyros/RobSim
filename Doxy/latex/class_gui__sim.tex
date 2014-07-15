@@ -1,0 +1,360 @@
+\hypertarget{class_gui__sim}{\section{Gui\-\_\-sim Class Reference}
+\label{class_gui__sim}\index{Gui\-\_\-sim@{Gui\-\_\-sim}}
+}
+
+
+{\ttfamily \#include $<$Gui\-\_\-sim.\-h$>$}
+
+
+
+Collaboration diagram for Gui\-\_\-sim\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{class_gui__sim__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_gui__sim_add3078535e1413f60aecc41bfc6c0074}{Gui\-\_\-sim} ()
+\item 
+void \hyperlink{class_gui__sim_a6ff2df84a5a1fe1daa252120c8ee4289}{init} (\hyperlink{class_map}{Map} \&m)
+\item 
+void \hyperlink{class_gui__sim_abb1df0449546eb8b1004a6160291ecad}{start\-\_\-new\-\_\-sim} ()
+\item 
+void \hyperlink{class_gui__sim_ae290c48db83ff530e74f79692a1cfc69}{run\-Sim} (bool paused, int \&vel, \hyperlink{_robot__management_8h_a4d3943ddea65db7163a58e6c7e8df95a}{uint} \&iter)
+\item 
+void \hyperlink{class_gui__sim_acf8e3da57fa2a597e6fed331ed7c0998}{end\-\_\-sim} ()
+\item 
+void \hyperlink{class_gui__sim_ac6cf2c2801ef0ed361d0c008af1af029}{draw\-\_\-map} ()
+\item 
+void \hyperlink{class_gui__sim_adb9a92ce767129d60069f78a5ca5aff9}{draw\-\_\-map\-\_\-dangers} (float x, float y)
+\item 
+void \hyperlink{class_gui__sim_a9577f2cf114ebc2575c155a83f26c826}{draw\-\_\-custom\-\_\-square} (float side, float z, float hoff, float voff, \hyperlink{_gui_8h_a199ee0f48afbd5920bf30972f7a381dc}{vec3f} colour, G\-Luint tex)
+\item 
+void \hyperlink{class_gui__sim_aa4d039fb6cf1bb7e6a0b42b85893836a}{set\-\_\-textures} (G\-Luint tex\mbox{[}$\,$\mbox{]})
+\item 
+void \hyperlink{class_gui__sim_a5e7ac19ede590bb2ac4cf2240899cdd2}{set\-\_\-alpha} (float a)
+\item 
+void \hyperlink{class_gui__sim_aea6641ee3522e87c4ec79467de025a0b}{set\-\_\-tile\-\_\-pressed} (float world\-\_\-x, float world\-\_\-y, float world\-\_\-z)
+\item 
+float \hyperlink{class_gui__sim_a3bdae000c4d601303964fb410bfbbe58}{get\-\_\-alpha} ()
+\item 
+void \hyperlink{class_gui__sim_a85c41961dfd75313224b4c406c308579}{get\-\_\-selected\-\_\-coord} (int \&sx, int \&sy)
+\item 
+void \hyperlink{class_gui__sim_ad4feb119972837ac03d9e1dbe573211e}{add\-Robot\-Pos} (char type, int x, int y)
+\item 
+void \hyperlink{class_gui__sim_a73467161ff658d0bd334c7245f55bebe}{remove\-Robot\-Pos} (int x, int y)
+\item 
+void \hyperlink{class_gui__sim_affe2de35c0ebf9b76f7c07ddd76df1c2}{move\-Robot} (int cur\-X, int cur\-Y, int target\-X, int target\-Y)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_map}{Map} \hyperlink{class_gui__sim_ae7cb7c801fd02dbc2602252f9de2a748}{map\-\_\-manip}
+\item 
+\hyperlink{class_robot__management}{Robot\-\_\-management} \hyperlink{class_gui__sim_ae78a76d8502b6a79cf582769af82dbd4}{r}
+\item 
+\hyperlink{class_gui__menus}{Gui\-\_\-menus} \hyperlink{class_gui__sim_a45c06161fcea360f6a0beb071827e3b1}{menu}
+\item 
+bool \hyperlink{class_gui__sim_a2be104727246fbe590044d9dc021eb47}{selected}
+\item 
+bool \hyperlink{class_gui__sim_a30d3113e5b0c640c6a06c57948fbec55}{succeded}
+\item 
+bool \hyperlink{class_gui__sim_a2c1abe69c173fe35195a492380b77f1b}{failed}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_gui__sim_add3078535e1413f60aecc41bfc6c0074}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!Gui\-\_\-sim@{Gui\-\_\-sim}}
+\index{Gui\-\_\-sim@{Gui\-\_\-sim}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{Gui\-\_\-sim}]{\setlength{\rightskip}{0pt plus 5cm}Gui\-\_\-sim\-::\-Gui\-\_\-sim (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_add3078535e1413f60aecc41bfc6c0074}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_gui__sim_ad4feb119972837ac03d9e1dbe573211e}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!add\-Robot\-Pos@{add\-Robot\-Pos}}
+\index{add\-Robot\-Pos@{add\-Robot\-Pos}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{add\-Robot\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::add\-Robot\-Pos (
+\begin{DoxyParamCaption}
+\item[{char}]{type, }
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_ad4feb119972837ac03d9e1dbe573211e}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui__sim_ad4feb119972837ac03d9e1dbe573211e_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gui__sim_a9577f2cf114ebc2575c155a83f26c826}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!draw\-\_\-custom\-\_\-square@{draw\-\_\-custom\-\_\-square}}
+\index{draw\-\_\-custom\-\_\-square@{draw\-\_\-custom\-\_\-square}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{draw\-\_\-custom\-\_\-square}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::draw\-\_\-custom\-\_\-square (
+\begin{DoxyParamCaption}
+\item[{float}]{side, }
+\item[{float}]{z, }
+\item[{float}]{hoff, }
+\item[{float}]{voff, }
+\item[{{\bf vec3f}}]{colour, }
+\item[{G\-Luint}]{tex}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_a9577f2cf114ebc2575c155a83f26c826}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui__sim_a9577f2cf114ebc2575c155a83f26c826_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{class_gui__sim_a9577f2cf114ebc2575c155a83f26c826_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gui__sim_ac6cf2c2801ef0ed361d0c008af1af029}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!draw\-\_\-map@{draw\-\_\-map}}
+\index{draw\-\_\-map@{draw\-\_\-map}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{draw\-\_\-map}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::draw\-\_\-map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_ac6cf2c2801ef0ed361d0c008af1af029}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui__sim_ac6cf2c2801ef0ed361d0c008af1af029_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gui__sim_adb9a92ce767129d60069f78a5ca5aff9}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!draw\-\_\-map\-\_\-dangers@{draw\-\_\-map\-\_\-dangers}}
+\index{draw\-\_\-map\-\_\-dangers@{draw\-\_\-map\-\_\-dangers}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{draw\-\_\-map\-\_\-dangers}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::draw\-\_\-map\-\_\-dangers (
+\begin{DoxyParamCaption}
+\item[{float}]{x, }
+\item[{float}]{y}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_adb9a92ce767129d60069f78a5ca5aff9}
+\hypertarget{class_gui__sim_acf8e3da57fa2a597e6fed331ed7c0998}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!end\-\_\-sim@{end\-\_\-sim}}
+\index{end\-\_\-sim@{end\-\_\-sim}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{end\-\_\-sim}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::end\-\_\-sim (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_acf8e3da57fa2a597e6fed331ed7c0998}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui__sim_acf8e3da57fa2a597e6fed331ed7c0998_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gui__sim_a3bdae000c4d601303964fb410bfbbe58}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!get\-\_\-alpha@{get\-\_\-alpha}}
+\index{get\-\_\-alpha@{get\-\_\-alpha}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{get\-\_\-alpha}]{\setlength{\rightskip}{0pt plus 5cm}float Gui\-\_\-sim\-::get\-\_\-alpha (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_a3bdae000c4d601303964fb410bfbbe58}
+\hypertarget{class_gui__sim_a85c41961dfd75313224b4c406c308579}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!get\-\_\-selected\-\_\-coord@{get\-\_\-selected\-\_\-coord}}
+\index{get\-\_\-selected\-\_\-coord@{get\-\_\-selected\-\_\-coord}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{get\-\_\-selected\-\_\-coord}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::get\-\_\-selected\-\_\-coord (
+\begin{DoxyParamCaption}
+\item[{int \&}]{sx, }
+\item[{int \&}]{sy}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_a85c41961dfd75313224b4c406c308579}
+\hypertarget{class_gui__sim_a6ff2df84a5a1fe1daa252120c8ee4289}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!init@{init}}
+\index{init@{init}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{init}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::init (
+\begin{DoxyParamCaption}
+\item[{{\bf Map} \&}]{m}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_a6ff2df84a5a1fe1daa252120c8ee4289}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=274pt]{class_gui__sim_a6ff2df84a5a1fe1daa252120c8ee4289_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=312pt]{class_gui__sim_a6ff2df84a5a1fe1daa252120c8ee4289_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gui__sim_affe2de35c0ebf9b76f7c07ddd76df1c2}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!move\-Robot@{move\-Robot}}
+\index{move\-Robot@{move\-Robot}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{move\-Robot}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::move\-Robot (
+\begin{DoxyParamCaption}
+\item[{int}]{cur\-X, }
+\item[{int}]{cur\-Y, }
+\item[{int}]{target\-X, }
+\item[{int}]{target\-Y}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_affe2de35c0ebf9b76f7c07ddd76df1c2}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui__sim_affe2de35c0ebf9b76f7c07ddd76df1c2_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gui__sim_a73467161ff658d0bd334c7245f55bebe}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!remove\-Robot\-Pos@{remove\-Robot\-Pos}}
+\index{remove\-Robot\-Pos@{remove\-Robot\-Pos}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{remove\-Robot\-Pos}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::remove\-Robot\-Pos (
+\begin{DoxyParamCaption}
+\item[{int}]{x, }
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_a73467161ff658d0bd334c7245f55bebe}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui__sim_a73467161ff658d0bd334c7245f55bebe_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gui__sim_ae290c48db83ff530e74f79692a1cfc69}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!run\-Sim@{run\-Sim}}
+\index{run\-Sim@{run\-Sim}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{run\-Sim}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::run\-Sim (
+\begin{DoxyParamCaption}
+\item[{bool}]{paused, }
+\item[{int \&}]{vel, }
+\item[{{\bf uint} \&}]{iter}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_ae290c48db83ff530e74f79692a1cfc69}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui__sim_ae290c48db83ff530e74f79692a1cfc69_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_gui__sim_a5e7ac19ede590bb2ac4cf2240899cdd2}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!set\-\_\-alpha@{set\-\_\-alpha}}
+\index{set\-\_\-alpha@{set\-\_\-alpha}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{set\-\_\-alpha}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::set\-\_\-alpha (
+\begin{DoxyParamCaption}
+\item[{float}]{a}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_a5e7ac19ede590bb2ac4cf2240899cdd2}
+\hypertarget{class_gui__sim_aa4d039fb6cf1bb7e6a0b42b85893836a}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!set\-\_\-textures@{set\-\_\-textures}}
+\index{set\-\_\-textures@{set\-\_\-textures}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{set\-\_\-textures}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::set\-\_\-textures (
+\begin{DoxyParamCaption}
+\item[{G\-Luint}]{tex\mbox{[}$\,$\mbox{]}}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_aa4d039fb6cf1bb7e6a0b42b85893836a}
+\hypertarget{class_gui__sim_aea6641ee3522e87c4ec79467de025a0b}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!set\-\_\-tile\-\_\-pressed@{set\-\_\-tile\-\_\-pressed}}
+\index{set\-\_\-tile\-\_\-pressed@{set\-\_\-tile\-\_\-pressed}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{set\-\_\-tile\-\_\-pressed}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::set\-\_\-tile\-\_\-pressed (
+\begin{DoxyParamCaption}
+\item[{float}]{world\-\_\-x, }
+\item[{float}]{world\-\_\-y, }
+\item[{float}]{world\-\_\-z}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_aea6641ee3522e87c4ec79467de025a0b}
+\hypertarget{class_gui__sim_abb1df0449546eb8b1004a6160291ecad}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!start\-\_\-new\-\_\-sim@{start\-\_\-new\-\_\-sim}}
+\index{start\-\_\-new\-\_\-sim@{start\-\_\-new\-\_\-sim}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{start\-\_\-new\-\_\-sim}]{\setlength{\rightskip}{0pt plus 5cm}void Gui\-\_\-sim\-::start\-\_\-new\-\_\-sim (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_gui__sim_abb1df0449546eb8b1004a6160291ecad}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui__sim_abb1df0449546eb8b1004a6160291ecad_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_gui__sim_abb1df0449546eb8b1004a6160291ecad_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_gui__sim_a2c1abe69c173fe35195a492380b77f1b}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!failed@{failed}}
+\index{failed@{failed}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{failed}]{\setlength{\rightskip}{0pt plus 5cm}bool Gui\-\_\-sim\-::failed}}\label{class_gui__sim_a2c1abe69c173fe35195a492380b77f1b}
+\hypertarget{class_gui__sim_ae7cb7c801fd02dbc2602252f9de2a748}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!map\-\_\-manip@{map\-\_\-manip}}
+\index{map\-\_\-manip@{map\-\_\-manip}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{map\-\_\-manip}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Map} Gui\-\_\-sim\-::map\-\_\-manip}}\label{class_gui__sim_ae7cb7c801fd02dbc2602252f9de2a748}
+\hypertarget{class_gui__sim_a45c06161fcea360f6a0beb071827e3b1}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!menu@{menu}}
+\index{menu@{menu}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{menu}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Gui\-\_\-menus} Gui\-\_\-sim\-::menu}}\label{class_gui__sim_a45c06161fcea360f6a0beb071827e3b1}
+\hypertarget{class_gui__sim_ae78a76d8502b6a79cf582769af82dbd4}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!r@{r}}
+\index{r@{r}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{r}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Robot\-\_\-management} Gui\-\_\-sim\-::r}}\label{class_gui__sim_ae78a76d8502b6a79cf582769af82dbd4}
+\hypertarget{class_gui__sim_a2be104727246fbe590044d9dc021eb47}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!selected@{selected}}
+\index{selected@{selected}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{selected}]{\setlength{\rightskip}{0pt plus 5cm}bool Gui\-\_\-sim\-::selected}}\label{class_gui__sim_a2be104727246fbe590044d9dc021eb47}
+\hypertarget{class_gui__sim_a30d3113e5b0c640c6a06c57948fbec55}{\index{Gui\-\_\-sim@{Gui\-\_\-sim}!succeded@{succeded}}
+\index{succeded@{succeded}!Gui_sim@{Gui\-\_\-sim}}
+\subsubsection[{succeded}]{\setlength{\rightskip}{0pt plus 5cm}bool Gui\-\_\-sim\-::succeded}}\label{class_gui__sim_a30d3113e5b0c640c6a06c57948fbec55}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/baios/\-Cpp\-\_\-\-Projects/\-Cpp\-Ceid/include/frontend/\-Gui/\hyperlink{_gui__sim_8h}{Gui\-\_\-sim.\-h}\item 
+/home/baios/\-Cpp\-\_\-\-Projects/\-Cpp\-Ceid/src/frontend/\-Gui/\hyperlink{_gui__sim_8cpp}{Gui\-\_\-sim.\-cpp}\end{DoxyCompactItemize}

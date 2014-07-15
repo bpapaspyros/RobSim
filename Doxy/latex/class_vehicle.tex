@@ -1,0 +1,527 @@
+\hypertarget{class_vehicle}{\section{Vehicle Class Reference}
+\label{class_vehicle}\index{Vehicle@{Vehicle}}
+}
+
+
+{\ttfamily \#include $<$Vehicle.\-h$>$}
+
+
+
+Inheritance diagram for Vehicle\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_vehicle_aef579c9dd3b44a77ceb3addd4fefc47b}{Vehicle} (const int width, const int height)
+\item 
+virtual \hyperlink{class_vehicle_a61ab140c755b8e0e824d54117cf4546f}{$\sim$\-Vehicle} ()
+\item 
+int \hyperlink{class_vehicle_a7e287f67c54968a70d46ce63a94e9c63}{move} (\hyperlink{class_map}{Map} m)
+\item 
+virtual void \hyperlink{class_vehicle_a6a0ed71ee9d4c569ee26961b213775db}{operate} (\hyperlink{class_map}{Map} \&m)=0
+\item 
+int \hyperlink{class_vehicle_a9528f57214d74276572e7b3858715b40}{get\-\_\-pos\-\_\-x} ()
+\item 
+int \hyperlink{class_vehicle_af1ffe0bf89d9cdc3f55033d73d8fb283}{get\-\_\-pos\-\_\-y} ()
+\item 
+int \hyperlink{class_vehicle_aa133cd93822aad408c811f89a3a0b273}{get\-\_\-velocity} ()
+\item 
+int \hyperlink{class_vehicle_a035e04c7cb7a2976b50f816af49dfa9d}{get\-\_\-status} ()
+\item 
+int \hyperlink{class_vehicle_a8b95156ffce6a2defece8cdda3405449}{get\-\_\-num\-\_\-id} ()
+\item 
+float \hyperlink{class_vehicle_a2ca803306acbd7f5876f6a22023470c2}{get\-\_\-ability} ()
+\item 
+char \hyperlink{class_vehicle_a3957f26debbf0726bf983d70ebd9b334}{get\-\_\-type} ()
+\item 
+int \hyperlink{class_vehicle_a44cdd7a765e0ecc93cd88c4449c7ff2a}{get\-\_\-travelled} ()
+\item 
+bool \hyperlink{class_vehicle_ada86b9d1054e3841d3fb0d5433e11774}{get\-\_\-broke\-Q} ()
+\item 
+void \hyperlink{class_vehicle_a933de97259d52a073e167cb4902cf272}{set\-\_\-type} (char type)
+\item 
+void \hyperlink{class_vehicle_a33fa7c0df43c6f1de03339745ba226e7}{set\-\_\-num\-\_\-id} (int num)
+\item 
+void \hyperlink{class_vehicle_abebe961f59c383b6ae23c1eb9a011519}{set\-\_\-velocity} (int num)
+\item 
+void \hyperlink{class_vehicle_a5295b6b7ebd67c074896604d06f30b53}{set\-\_\-pos\-\_\-x} (int x)
+\item 
+void \hyperlink{class_vehicle_a91b3331fbf7fa63198b22ded702a6a44}{set\-\_\-pos\-\_\-y} (int y)
+\item 
+void \hyperlink{class_vehicle_ad2ab1a15c767bbdd09e1190a18f1bdca}{set\-\_\-ability} (float ab)
+\item 
+void \hyperlink{class_vehicle_a87b875939c76d2a2f984811f60dd2af4}{set\-\_\-status} (int n\-\_\-status)
+\item 
+void \hyperlink{class_vehicle_a32d6fb4b960170d7a88c9ba4cdf30710}{return\-To\-Map} ()
+\item 
+bool \hyperlink{class_vehicle_a7c78e8942102b824144cc227984ea988}{check\-Robot\-Death} ()
+\item 
+virtual void \hyperlink{class_vehicle_a3e3cc666c76c42178e942363585ff1b7}{export\-\_\-info} (float \&p, float \&g, float \&i, float \&rem\-Load)
+\item 
+virtual void \hyperlink{class_vehicle_a1bedb710e134005b37a2848b2c3c4851}{export\-\_\-info} (bool \&successful\-Operation)
+\item 
+virtual void \hyperlink{class_vehicle_ae2840b7627d758e5019a6fdd83a229a9}{export\-\_\-total\-\_\-info} (float \&tp, float \&tg, float \&ti, float \&total\-\_\-res)
+\item 
+virtual void \hyperlink{class_vehicle_a6f7de2dcc1d9ce62c1da282757b345f6}{export\-\_\-total\-\_\-info} (int \&total\-\_\-successfull\-Ops)
+\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_vehicle_a0130974e6ab67f6a2b59772b5de4cc6e}{goto\-Base}
+\item 
+int \hyperlink{class_vehicle_a8ec5bc4761c8ab8b17a69d9a9e8c5d2c}{def\-\_\-velocity}
+\item 
+int \hyperlink{class_vehicle_a18846d0cdc78a3f2137e70021af01492}{def\-\_\-status}
+\item 
+int \hyperlink{class_vehicle_a9ff49e3ecf77a8b92fb3d48ccd08dba3}{total\-\_\-damages}
+\end{DoxyCompactItemize}
+
+
+\subsection{Constructor \& Destructor Documentation}
+\hypertarget{class_vehicle_aef579c9dd3b44a77ceb3addd4fefc47b}{\index{Vehicle@{Vehicle}!Vehicle@{Vehicle}}
+\index{Vehicle@{Vehicle}!Vehicle@{Vehicle}}
+\subsubsection[{Vehicle}]{\setlength{\rightskip}{0pt plus 5cm}Vehicle\-::\-Vehicle (
+\begin{DoxyParamCaption}
+\item[{const int}]{width, }
+\item[{const int}]{height}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_aef579c9dd3b44a77ceb3addd4fefc47b}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_aef579c9dd3b44a77ceb3addd4fefc47b_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_a61ab140c755b8e0e824d54117cf4546f}{\index{Vehicle@{Vehicle}!$\sim$\-Vehicle@{$\sim$\-Vehicle}}
+\index{$\sim$\-Vehicle@{$\sim$\-Vehicle}!Vehicle@{Vehicle}}
+\subsubsection[{$\sim$\-Vehicle}]{\setlength{\rightskip}{0pt plus 5cm}Vehicle\-::$\sim$\-Vehicle (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_vehicle_a61ab140c755b8e0e824d54117cf4546f}
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_vehicle_a7c78e8942102b824144cc227984ea988}{\index{Vehicle@{Vehicle}!check\-Robot\-Death@{check\-Robot\-Death}}
+\index{check\-Robot\-Death@{check\-Robot\-Death}!Vehicle@{Vehicle}}
+\subsubsection[{check\-Robot\-Death}]{\setlength{\rightskip}{0pt plus 5cm}bool Vehicle\-::check\-Robot\-Death (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a7c78e8942102b824144cc227984ea988}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_a7c78e8942102b824144cc227984ea988_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_a7c78e8942102b824144cc227984ea988_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_a3e3cc666c76c42178e942363585ff1b7}{\index{Vehicle@{Vehicle}!export\-\_\-info@{export\-\_\-info}}
+\index{export\-\_\-info@{export\-\_\-info}!Vehicle@{Vehicle}}
+\subsubsection[{export\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::export\-\_\-info (
+\begin{DoxyParamCaption}
+\item[{float \&}]{p, }
+\item[{float \&}]{g, }
+\item[{float \&}]{i, }
+\item[{float \&}]{rem\-Load}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_vehicle_a3e3cc666c76c42178e942363585ff1b7}
+
+
+Reimplemented in \hyperlink{class_analysis_robot_a984f9a02843c487538dcb8029f15ce1f}{Analysis\-Robot}.
+
+\hypertarget{class_vehicle_a1bedb710e134005b37a2848b2c3c4851}{\index{Vehicle@{Vehicle}!export\-\_\-info@{export\-\_\-info}}
+\index{export\-\_\-info@{export\-\_\-info}!Vehicle@{Vehicle}}
+\subsubsection[{export\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::export\-\_\-info (
+\begin{DoxyParamCaption}
+\item[{bool \&}]{successful\-Operation}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_vehicle_a1bedb710e134005b37a2848b2c3c4851}
+
+
+Reimplemented in \hyperlink{class_research_robot_a550dbf010c584e09f4c8e4f27286675a}{Research\-Robot}, and \hyperlink{class_rescue_robot_accdc41d98e3135f050ea97b3879f60b3}{Rescue\-Robot}.
+
+\hypertarget{class_vehicle_ae2840b7627d758e5019a6fdd83a229a9}{\index{Vehicle@{Vehicle}!export\-\_\-total\-\_\-info@{export\-\_\-total\-\_\-info}}
+\index{export\-\_\-total\-\_\-info@{export\-\_\-total\-\_\-info}!Vehicle@{Vehicle}}
+\subsubsection[{export\-\_\-total\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::export\-\_\-total\-\_\-info (
+\begin{DoxyParamCaption}
+\item[{float \&}]{tp, }
+\item[{float \&}]{tg, }
+\item[{float \&}]{ti, }
+\item[{float \&}]{total\-\_\-res}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_vehicle_ae2840b7627d758e5019a6fdd83a229a9}
+
+
+Reimplemented in \hyperlink{class_analysis_robot_a090c8f17c57af7c3073905fa9bedbf2c}{Analysis\-Robot}.
+
+\hypertarget{class_vehicle_a6f7de2dcc1d9ce62c1da282757b345f6}{\index{Vehicle@{Vehicle}!export\-\_\-total\-\_\-info@{export\-\_\-total\-\_\-info}}
+\index{export\-\_\-total\-\_\-info@{export\-\_\-total\-\_\-info}!Vehicle@{Vehicle}}
+\subsubsection[{export\-\_\-total\-\_\-info}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::export\-\_\-total\-\_\-info (
+\begin{DoxyParamCaption}
+\item[{int \&}]{total\-\_\-successfull\-Ops}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}}\label{class_vehicle_a6f7de2dcc1d9ce62c1da282757b345f6}
+
+
+Reimplemented in \hyperlink{class_research_robot_ad95ed058516e5b5d7c48e23e9c0ab2a3}{Research\-Robot}, and \hyperlink{class_rescue_robot_a508cf4e62ace7b794d7d6ba01b916727}{Rescue\-Robot}.
+
+\hypertarget{class_vehicle_a2ca803306acbd7f5876f6a22023470c2}{\index{Vehicle@{Vehicle}!get\-\_\-ability@{get\-\_\-ability}}
+\index{get\-\_\-ability@{get\-\_\-ability}!Vehicle@{Vehicle}}
+\subsubsection[{get\-\_\-ability}]{\setlength{\rightskip}{0pt plus 5cm}float Vehicle\-::get\-\_\-ability (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a2ca803306acbd7f5876f6a22023470c2}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_a2ca803306acbd7f5876f6a22023470c2_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_ada86b9d1054e3841d3fb0d5433e11774}{\index{Vehicle@{Vehicle}!get\-\_\-broke\-Q@{get\-\_\-broke\-Q}}
+\index{get\-\_\-broke\-Q@{get\-\_\-broke\-Q}!Vehicle@{Vehicle}}
+\subsubsection[{get\-\_\-broke\-Q}]{\setlength{\rightskip}{0pt plus 5cm}bool Vehicle\-::get\-\_\-broke\-Q (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_ada86b9d1054e3841d3fb0d5433e11774}
+\hypertarget{class_vehicle_a8b95156ffce6a2defece8cdda3405449}{\index{Vehicle@{Vehicle}!get\-\_\-num\-\_\-id@{get\-\_\-num\-\_\-id}}
+\index{get\-\_\-num\-\_\-id@{get\-\_\-num\-\_\-id}!Vehicle@{Vehicle}}
+\subsubsection[{get\-\_\-num\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}int Vehicle\-::get\-\_\-num\-\_\-id (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a8b95156ffce6a2defece8cdda3405449}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{class_vehicle_a8b95156ffce6a2defece8cdda3405449_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_a9528f57214d74276572e7b3858715b40}{\index{Vehicle@{Vehicle}!get\-\_\-pos\-\_\-x@{get\-\_\-pos\-\_\-x}}
+\index{get\-\_\-pos\-\_\-x@{get\-\_\-pos\-\_\-x}!Vehicle@{Vehicle}}
+\subsubsection[{get\-\_\-pos\-\_\-x}]{\setlength{\rightskip}{0pt plus 5cm}int Vehicle\-::get\-\_\-pos\-\_\-x (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a9528f57214d74276572e7b3858715b40}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_vehicle_a9528f57214d74276572e7b3858715b40_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_af1ffe0bf89d9cdc3f55033d73d8fb283}{\index{Vehicle@{Vehicle}!get\-\_\-pos\-\_\-y@{get\-\_\-pos\-\_\-y}}
+\index{get\-\_\-pos\-\_\-y@{get\-\_\-pos\-\_\-y}!Vehicle@{Vehicle}}
+\subsubsection[{get\-\_\-pos\-\_\-y}]{\setlength{\rightskip}{0pt plus 5cm}int Vehicle\-::get\-\_\-pos\-\_\-y (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_af1ffe0bf89d9cdc3f55033d73d8fb283}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=340pt]{class_vehicle_af1ffe0bf89d9cdc3f55033d73d8fb283_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_a035e04c7cb7a2976b50f816af49dfa9d}{\index{Vehicle@{Vehicle}!get\-\_\-status@{get\-\_\-status}}
+\index{get\-\_\-status@{get\-\_\-status}!Vehicle@{Vehicle}}
+\subsubsection[{get\-\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}int Vehicle\-::get\-\_\-status (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a035e04c7cb7a2976b50f816af49dfa9d}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_a035e04c7cb7a2976b50f816af49dfa9d_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_a44cdd7a765e0ecc93cd88c4449c7ff2a}{\index{Vehicle@{Vehicle}!get\-\_\-travelled@{get\-\_\-travelled}}
+\index{get\-\_\-travelled@{get\-\_\-travelled}!Vehicle@{Vehicle}}
+\subsubsection[{get\-\_\-travelled}]{\setlength{\rightskip}{0pt plus 5cm}int Vehicle\-::get\-\_\-travelled (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a44cdd7a765e0ecc93cd88c4449c7ff2a}
+\hypertarget{class_vehicle_a3957f26debbf0726bf983d70ebd9b334}{\index{Vehicle@{Vehicle}!get\-\_\-type@{get\-\_\-type}}
+\index{get\-\_\-type@{get\-\_\-type}!Vehicle@{Vehicle}}
+\subsubsection[{get\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}char Vehicle\-::get\-\_\-type (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a3957f26debbf0726bf983d70ebd9b334}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{class_vehicle_a3957f26debbf0726bf983d70ebd9b334_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_aa133cd93822aad408c811f89a3a0b273}{\index{Vehicle@{Vehicle}!get\-\_\-velocity@{get\-\_\-velocity}}
+\index{get\-\_\-velocity@{get\-\_\-velocity}!Vehicle@{Vehicle}}
+\subsubsection[{get\-\_\-velocity}]{\setlength{\rightskip}{0pt plus 5cm}int Vehicle\-::get\-\_\-velocity (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_aa133cd93822aad408c811f89a3a0b273}
+\hypertarget{class_vehicle_a7e287f67c54968a70d46ce63a94e9c63}{\index{Vehicle@{Vehicle}!move@{move}}
+\index{move@{move}!Vehicle@{Vehicle}}
+\subsubsection[{move}]{\setlength{\rightskip}{0pt plus 5cm}int Vehicle\-::move (
+\begin{DoxyParamCaption}
+\item[{{\bf Map}}]{m}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a7e287f67c54968a70d46ce63a94e9c63}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_a7e287f67c54968a70d46ce63a94e9c63_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_a6a0ed71ee9d4c569ee26961b213775db}{\index{Vehicle@{Vehicle}!operate@{operate}}
+\index{operate@{operate}!Vehicle@{Vehicle}}
+\subsubsection[{operate}]{\setlength{\rightskip}{0pt plus 5cm}virtual void Vehicle\-::operate (
+\begin{DoxyParamCaption}
+\item[{{\bf Map} \&}]{m}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}}\label{class_vehicle_a6a0ed71ee9d4c569ee26961b213775db}
+
+
+Implemented in \hyperlink{class_research_robot_a275cc9e973d7c2b28a0346d485905b08}{Research\-Robot}, \hyperlink{class_analysis_robot_a496ce06a9eee3fcbb521dd6eb9ef7947}{Analysis\-Robot}, and \hyperlink{class_rescue_robot_a59762f159a621047e2ffc0be0cf46c9d}{Rescue\-Robot}.
+
+\hypertarget{class_vehicle_a32d6fb4b960170d7a88c9ba4cdf30710}{\index{Vehicle@{Vehicle}!return\-To\-Map@{return\-To\-Map}}
+\index{return\-To\-Map@{return\-To\-Map}!Vehicle@{Vehicle}}
+\subsubsection[{return\-To\-Map}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::return\-To\-Map (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a32d6fb4b960170d7a88c9ba4cdf30710}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_vehicle_a32d6fb4b960170d7a88c9ba4cdf30710_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=346pt]{class_vehicle_a32d6fb4b960170d7a88c9ba4cdf30710_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_ad2ab1a15c767bbdd09e1190a18f1bdca}{\index{Vehicle@{Vehicle}!set\-\_\-ability@{set\-\_\-ability}}
+\index{set\-\_\-ability@{set\-\_\-ability}!Vehicle@{Vehicle}}
+\subsubsection[{set\-\_\-ability}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::set\-\_\-ability (
+\begin{DoxyParamCaption}
+\item[{float}]{ab}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_ad2ab1a15c767bbdd09e1190a18f1bdca}
+\hypertarget{class_vehicle_a33fa7c0df43c6f1de03339745ba226e7}{\index{Vehicle@{Vehicle}!set\-\_\-num\-\_\-id@{set\-\_\-num\-\_\-id}}
+\index{set\-\_\-num\-\_\-id@{set\-\_\-num\-\_\-id}!Vehicle@{Vehicle}}
+\subsubsection[{set\-\_\-num\-\_\-id}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::set\-\_\-num\-\_\-id (
+\begin{DoxyParamCaption}
+\item[{int}]{num}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a33fa7c0df43c6f1de03339745ba226e7}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_a33fa7c0df43c6f1de03339745ba226e7_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_a5295b6b7ebd67c074896604d06f30b53}{\index{Vehicle@{Vehicle}!set\-\_\-pos\-\_\-x@{set\-\_\-pos\-\_\-x}}
+\index{set\-\_\-pos\-\_\-x@{set\-\_\-pos\-\_\-x}!Vehicle@{Vehicle}}
+\subsubsection[{set\-\_\-pos\-\_\-x}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::set\-\_\-pos\-\_\-x (
+\begin{DoxyParamCaption}
+\item[{int}]{x}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a5295b6b7ebd67c074896604d06f30b53}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_a5295b6b7ebd67c074896604d06f30b53_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_a91b3331fbf7fa63198b22ded702a6a44}{\index{Vehicle@{Vehicle}!set\-\_\-pos\-\_\-y@{set\-\_\-pos\-\_\-y}}
+\index{set\-\_\-pos\-\_\-y@{set\-\_\-pos\-\_\-y}!Vehicle@{Vehicle}}
+\subsubsection[{set\-\_\-pos\-\_\-y}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::set\-\_\-pos\-\_\-y (
+\begin{DoxyParamCaption}
+\item[{int}]{y}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a91b3331fbf7fa63198b22ded702a6a44}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_a91b3331fbf7fa63198b22ded702a6a44_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_a87b875939c76d2a2f984811f60dd2af4}{\index{Vehicle@{Vehicle}!set\-\_\-status@{set\-\_\-status}}
+\index{set\-\_\-status@{set\-\_\-status}!Vehicle@{Vehicle}}
+\subsubsection[{set\-\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::set\-\_\-status (
+\begin{DoxyParamCaption}
+\item[{int}]{n\-\_\-status}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a87b875939c76d2a2f984811f60dd2af4}
+
+
+Here is the call graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{class_vehicle_a87b875939c76d2a2f984811f60dd2af4_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_a87b875939c76d2a2f984811f60dd2af4_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_a933de97259d52a073e167cb4902cf272}{\index{Vehicle@{Vehicle}!set\-\_\-type@{set\-\_\-type}}
+\index{set\-\_\-type@{set\-\_\-type}!Vehicle@{Vehicle}}
+\subsubsection[{set\-\_\-type}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::set\-\_\-type (
+\begin{DoxyParamCaption}
+\item[{char}]{type}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_a933de97259d52a073e167cb4902cf272}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_a933de97259d52a073e167cb4902cf272_icgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{class_vehicle_abebe961f59c383b6ae23c1eb9a011519}{\index{Vehicle@{Vehicle}!set\-\_\-velocity@{set\-\_\-velocity}}
+\index{set\-\_\-velocity@{set\-\_\-velocity}!Vehicle@{Vehicle}}
+\subsubsection[{set\-\_\-velocity}]{\setlength{\rightskip}{0pt plus 5cm}void Vehicle\-::set\-\_\-velocity (
+\begin{DoxyParamCaption}
+\item[{int}]{num}
+\end{DoxyParamCaption}
+)}}\label{class_vehicle_abebe961f59c383b6ae23c1eb9a011519}
+
+
+Here is the caller graph for this function\-:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{class_vehicle_abebe961f59c383b6ae23c1eb9a011519_icgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_vehicle_a18846d0cdc78a3f2137e70021af01492}{\index{Vehicle@{Vehicle}!def\-\_\-status@{def\-\_\-status}}
+\index{def\-\_\-status@{def\-\_\-status}!Vehicle@{Vehicle}}
+\subsubsection[{def\-\_\-status}]{\setlength{\rightskip}{0pt plus 5cm}int Vehicle\-::def\-\_\-status}}\label{class_vehicle_a18846d0cdc78a3f2137e70021af01492}
+\hypertarget{class_vehicle_a8ec5bc4761c8ab8b17a69d9a9e8c5d2c}{\index{Vehicle@{Vehicle}!def\-\_\-velocity@{def\-\_\-velocity}}
+\index{def\-\_\-velocity@{def\-\_\-velocity}!Vehicle@{Vehicle}}
+\subsubsection[{def\-\_\-velocity}]{\setlength{\rightskip}{0pt plus 5cm}int Vehicle\-::def\-\_\-velocity}}\label{class_vehicle_a8ec5bc4761c8ab8b17a69d9a9e8c5d2c}
+\hypertarget{class_vehicle_a0130974e6ab67f6a2b59772b5de4cc6e}{\index{Vehicle@{Vehicle}!goto\-Base@{goto\-Base}}
+\index{goto\-Base@{goto\-Base}!Vehicle@{Vehicle}}
+\subsubsection[{goto\-Base}]{\setlength{\rightskip}{0pt plus 5cm}bool Vehicle\-::goto\-Base}}\label{class_vehicle_a0130974e6ab67f6a2b59772b5de4cc6e}
+\hypertarget{class_vehicle_a9ff49e3ecf77a8b92fb3d48ccd08dba3}{\index{Vehicle@{Vehicle}!total\-\_\-damages@{total\-\_\-damages}}
+\index{total\-\_\-damages@{total\-\_\-damages}!Vehicle@{Vehicle}}
+\subsubsection[{total\-\_\-damages}]{\setlength{\rightskip}{0pt plus 5cm}int Vehicle\-::total\-\_\-damages}}\label{class_vehicle_a9ff49e3ecf77a8b92fb3d48ccd08dba3}
+
+
+The documentation for this class was generated from the following files\-:\begin{DoxyCompactItemize}
+\item 
+/home/baios/\-Cpp\-\_\-\-Projects/\-Cpp\-Ceid/include/backend/\hyperlink{_vehicle_8h}{Vehicle.\-h}\item 
+/home/baios/\-Cpp\-\_\-\-Projects/\-Cpp\-Ceid/src/backend/\hyperlink{_vehicle_8cpp}{Vehicle.\-cpp}\end{DoxyCompactItemize}

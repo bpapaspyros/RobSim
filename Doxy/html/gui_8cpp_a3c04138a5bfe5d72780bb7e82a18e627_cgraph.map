@@ -1,0 +1,11 @@
+<map id="main" name="main">
+<area shape="rect" id="node3" href="$class_gui.html#aa6ed2f385b49764852f9bb09ed9198ff" title="Gui::init" alt="" coords="104,112,171,141"/>
+<area shape="rect" id="node5" href="$class_gui__sim.html#a6ff2df84a5a1fe1daa252120c8ee4289" title="Gui_sim::init" alt="" coords="253,59,347,88"/>
+<area shape="rect" id="node11" href="$class_gui__sim.html#abb1df0449546eb8b1004a6160291ecad" title="Gui_sim::start_new_sim" alt="" coords="219,165,381,195"/>
+<area shape="rect" id="node7" href="$class_map.html#a38609ea6ce07bc5bb2ea55db6580b355" title="Map::get_width" alt="" coords="477,5,587,35"/>
+<area shape="rect" id="node9" href="$class_map.html#adef9516dd475e67aa7f819a6a358f668" title="Map::get_height" alt="" coords="475,59,589,88"/>
+<area shape="rect" id="node13" href="$class_robot__management.html#a6d7fc2f2442081b9cbf7ab62a60d5426" title="Robot_management::listEmpty" alt="" coords="431,112,633,141"/>
+<area shape="rect" id="node15" href="$class_robot__management.html#ac1a9ddc1089b1f4a26e7a7effef79142" title="Robot_management::emptyList" alt="" coords="431,165,633,195"/>
+<area shape="rect" id="node17" href="$class_map.html#a904c445fdce79257fedeba09070cf88a" title="Map::reset" alt="" coords="491,219,573,248"/>
+<area shape="rect" id="node19" href="$class_robot__management.html#a783299145c4194e2b005ec66b34026ee" title="Robot_management::addRobot" alt="" coords="431,272,633,301"/>
+</map>
