@@ -1,4 +1,4 @@
 <map id="Gui_menus::round_info" name="Gui_menus::round_info">
-<area shape="rect" id="node3" href="$class_gui__print.html#a531bb6aa6c53e440b291f3bd62cd7711" title="Gui_print::bmpString" alt="" coords="211,5,352,35"/>
-<area shape="rect" id="node5" href="$class_gui__print.html#aa7f1ef73b3fa497738ec378bcf447fed" title="Gui_print::bmpChar" alt="" coords="215,59,348,88"/>
+<area shape="rect" id="node2" href="$class_gui__print.html#a531bb6aa6c53e440b291f3bd62cd7711" title="Gui_print::bmpString" alt="" coords="211,5,352,32"/>
+<area shape="rect" id="node3" href="$class_gui__print.html#aa7f1ef73b3fa497738ec378bcf447fed" title="Gui_print::bmpChar" alt="" coords="214,56,349,83"/>
 </map>

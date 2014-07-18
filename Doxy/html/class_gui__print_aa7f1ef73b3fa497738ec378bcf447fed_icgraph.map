@@ -1,5 +1,5 @@
 <map id="Gui_print::bmpChar" name="Gui_print::bmpChar">
-<area shape="rect" id="node3" href="$class_gui__menus.html#a0380d9b643007661b1f9d80fb6e97c23" title="Gui_menus::base_info" alt="" coords="192,5,344,35"/>
-<area shape="rect" id="node7" href="$class_gui__menus.html#a36b5bf60d6fb755a34ab7acb100ffac6" title="Gui_menus::round_info" alt="" coords="191,59,345,88"/>
-<area shape="rect" id="node5" href="$class_gui__sim.html#ac6cf2c2801ef0ed361d0c008af1af029" title="Gui_sim::draw_map" alt="" coords="395,32,533,61"/>
+<area shape="rect" id="node2" href="$class_gui__menus.html#a0380d9b643007661b1f9d80fb6e97c23" title="Gui_menus::base_info" alt="" coords="192,5,344,32"/>
+<area shape="rect" id="node4" href="$class_gui__menus.html#a36b5bf60d6fb755a34ab7acb100ffac6" title="Gui_menus::round_info" alt="" coords="190,56,346,83"/>
+<area shape="rect" id="node3" href="$class_gui__sim.html#ac6cf2c2801ef0ed361d0c008af1af029" title="Gui_sim::draw_map" alt="" coords="395,31,533,57"/>
 </map>

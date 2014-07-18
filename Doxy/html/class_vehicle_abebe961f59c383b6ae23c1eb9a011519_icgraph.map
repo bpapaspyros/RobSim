@@ -1,8 +1,8 @@
 <map id="Vehicle::set_velocity" name="Vehicle::set_velocity">
-<area shape="rect" id="node3" href="$class_vehicle.html#a87b875939c76d2a2f984811f60dd2af4" title="Vehicle::set_status" alt="" coords="199,85,332,115"/>
-<area shape="rect" id="node5" href="$class_analysis_robot.html#a4bc986573a8c243c3491e2c31099a50b" title="AnalysisRobot::AnalysisRobot" alt="" coords="388,5,588,35"/>
-<area shape="rect" id="node7" href="$class_probability.html#af53f1705884b7d1b1fd658e3b525ee38" title="Probability::takeDamage" alt="" coords="405,59,571,88"/>
-<area shape="rect" id="node11" href="$class_rescue_robot.html#a74d8804d8bd465c17913a47676a167a0" title="RescueRobot::RescueRobot" alt="" coords="393,112,583,141"/>
-<area shape="rect" id="node13" href="$class_research_robot.html#a9a80e8a64a4b95b19e965761b4c33b17" title="ResearchRobot::ResearchRobot" alt="" coords="383,165,593,195"/>
-<area shape="rect" id="node9" href="$class_gui__sim.html#ae290c48db83ff530e74f79692a1cfc69" title="Gui_sim::runSim" alt="" coords="644,59,761,88"/>
+<area shape="rect" id="node2" href="$class_vehicle.html#a87b875939c76d2a2f984811f60dd2af4" title="Vehicle::set_status" alt="" coords="198,81,333,108"/>
+<area shape="rect" id="node3" href="$class_analysis_robot.html#a4bc986573a8c243c3491e2c31099a50b" title="AnalysisRobot::AnalysisRobot" alt="" coords="388,5,588,32"/>
+<area shape="rect" id="node4" href="$class_probability.html#af53f1705884b7d1b1fd658e3b525ee38" title="Probability::takeDamage" alt="" coords="405,56,571,83"/>
+<area shape="rect" id="node6" href="$class_rescue_robot.html#a74d8804d8bd465c17913a47676a167a0" title="RescueRobot::RescueRobot" alt="" coords="393,107,583,133"/>
+<area shape="rect" id="node7" href="$class_research_robot.html#a9a80e8a64a4b95b19e965761b4c33b17" title="ResearchRobot::ResearchRobot" alt="" coords="382,157,594,184"/>
+<area shape="rect" id="node5" href="$class_gui__sim.html#ae290c48db83ff530e74f79692a1cfc69" title="Gui_sim::runSim" alt="" coords="643,56,762,83"/>
 </map>

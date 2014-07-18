@@ -1,7 +1,7 @@
 <map id="Probability::takeDamage" name="Probability::takeDamage">
-<area shape="rect" id="node3" href="$class_probability.html#a06a7e084593bdffb6a2a606f171cc49e" title="Probability::calc_probability" alt="" coords="219,5,400,35"/>
-<area shape="rect" id="node5" href="$class_vehicle.html#a2ca803306acbd7f5876f6a22023470c2" title="Vehicle::get_ability" alt="" coords="244,59,375,88"/>
-<area shape="rect" id="node7" href="$class_vehicle.html#a87b875939c76d2a2f984811f60dd2af4" title="Vehicle::set_status" alt="" coords="243,112,376,141"/>
-<area shape="rect" id="node11" href="$class_vehicle.html#a035e04c7cb7a2976b50f816af49dfa9d" title="Vehicle::get_status" alt="" coords="243,165,376,195"/>
-<area shape="rect" id="node9" href="$class_vehicle.html#abebe961f59c383b6ae23c1eb9a011519" title="Vehicle::set_velocity" alt="" coords="449,112,591,141"/>
+<area shape="rect" id="node2" href="$class_probability.html#a06a7e084593bdffb6a2a606f171cc49e" title="Probability::calc_probability" alt="" coords="219,5,400,32"/>
+<area shape="rect" id="node3" href="$class_vehicle.html#a2ca803306acbd7f5876f6a22023470c2" title="Vehicle::get_ability" alt="" coords="243,56,375,83"/>
+<area shape="rect" id="node4" href="$class_vehicle.html#a87b875939c76d2a2f984811f60dd2af4" title="Vehicle::set_status" alt="" coords="242,107,377,133"/>
+<area shape="rect" id="node6" href="$class_vehicle.html#a035e04c7cb7a2976b50f816af49dfa9d" title="Vehicle::get_status" alt="" coords="242,157,377,184"/>
+<area shape="rect" id="node5" href="$class_vehicle.html#abebe961f59c383b6ae23c1eb9a011519" title="Vehicle::set_velocity" alt="" coords="449,107,591,133"/>
 </map>

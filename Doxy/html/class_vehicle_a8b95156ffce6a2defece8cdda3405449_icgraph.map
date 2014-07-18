@@ -1,4 +1,4 @@
 <map id="Vehicle::get_num_id" name="Vehicle::get_num_id">
-<area shape="rect" id="node3" href="$class_rescue_robot.html#a59762f159a621047e2ffc0be0cf46c9d" title="RescueRobot::operate" alt="" coords="196,5,348,35"/>
-<area shape="rect" id="node5" href="$class_vehicle.html#a7e287f67c54968a70d46ce63a94e9c63" title="Vehicle::move" alt="" coords="220,59,324,88"/>
+<area shape="rect" id="node2" href="$class_rescue_robot.html#a59762f159a621047e2ffc0be0cf46c9d" title="RescueRobot::operate" alt="" coords="195,5,349,32"/>
+<area shape="rect" id="node3" href="$class_vehicle.html#a7e287f67c54968a70d46ce63a94e9c63" title="Vehicle::move" alt="" coords="219,56,325,83"/>
 </map>

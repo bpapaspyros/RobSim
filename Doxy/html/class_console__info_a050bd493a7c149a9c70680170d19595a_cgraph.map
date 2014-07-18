@@ -1,4 +1,4 @@
 <map id="Console_info::map_tile_info" name="Console_info::map_tile_info">
-<area shape="rect" id="node3" href="$class_abbreviations.html#aa7ffcca4bdcae46e65910f19e5170e2c" title="Abbreviations::newLine" alt="" coords="260,5,417,35"/>
-<area shape="rect" id="node5" href="$class_robot__management.html#a9f55e341be1e0c8d5a532b63a31b5115" title="Robot_management::checkFor\lRobots" alt="" coords="239,58,439,105"/>
+<area shape="rect" id="node2" href="$class_abbreviations.html#aa7ffcca4bdcae46e65910f19e5170e2c" title="Abbreviations::newLine" alt="" coords="260,5,417,32"/>
+<area shape="rect" id="node3" href="$class_robot__management.html#a9f55e341be1e0c8d5a532b63a31b5115" title="Robot_management::checkFor\lRobots" alt="" coords="238,57,439,98"/>
 </map>

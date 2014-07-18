@@ -1,6 +1,6 @@
 <map id="RescueRobot::RescueRobot" name="RescueRobot::RescueRobot">
-<area shape="rect" id="node3" href="$class_vehicle.html#a933de97259d52a073e167cb4902cf272" title="Vehicle::set_type" alt="" coords="255,5,377,35"/>
-<area shape="rect" id="node5" href="$class_vehicle.html#a33fa7c0df43c6f1de03339745ba226e7" title="Vehicle::set_num_id" alt="" coords="247,59,385,88"/>
-<area shape="rect" id="node7" href="$class_vehicle.html#a87b875939c76d2a2f984811f60dd2af4" title="Vehicle::set_status" alt="" coords="249,112,383,141"/>
-<area shape="rect" id="node9" href="$class_vehicle.html#abebe961f59c383b6ae23c1eb9a011519" title="Vehicle::set_velocity" alt="" coords="436,112,577,141"/>
+<area shape="rect" id="node2" href="$class_vehicle.html#a933de97259d52a073e167cb4902cf272" title="Vehicle::set_type" alt="" coords="255,5,377,32"/>
+<area shape="rect" id="node3" href="$class_vehicle.html#a33fa7c0df43c6f1de03339745ba226e7" title="Vehicle::set_num_id" alt="" coords="246,56,386,83"/>
+<area shape="rect" id="node4" href="$class_vehicle.html#a87b875939c76d2a2f984811f60dd2af4" title="Vehicle::set_status" alt="" coords="249,107,383,133"/>
+<area shape="rect" id="node5" href="$class_vehicle.html#abebe961f59c383b6ae23c1eb9a011519" title="Vehicle::set_velocity" alt="" coords="435,107,578,133"/>
 </map>

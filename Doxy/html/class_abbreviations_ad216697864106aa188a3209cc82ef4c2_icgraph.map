@@ -1,7 +1,7 @@
 <map id="Abbreviations::skip_page" name="Abbreviations::skip_page">
-<area shape="rect" id="node3" href="$class_console__graphics.html#a7dc8bfa26213dc3a53941b0612013f54" title="Console_graphics::Console\l_graphics" alt="" coords="223,5,404,51"/>
-<area shape="rect" id="node5" href="$class_console__graphics.html#a4b20f4a9ea5fad4820ddd1fe2232affc" title="Console_graphics::print\l_toolbar" alt="" coords="235,74,392,121"/>
-<area shape="rect" id="node9" href="$class_console__info.html#ac75c6db03c6bda9b33de56696b6a18d4" title="Console_info::success" alt="" coords="236,144,391,173"/>
-<area shape="rect" id="node11" href="$class_console__info.html#a29875cecf1aa23eceac4bb46d4df7598" title="Console_info::fail" alt="" coords="252,197,375,227"/>
-<area shape="rect" id="node7" href="$console_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="453,83,504,112"/>
+<area shape="rect" id="node2" href="$class_console__graphics.html#a7dc8bfa26213dc3a53941b0612013f54" title="Console_graphics::Console\l_graphics" alt="" coords="222,5,405,46"/>
+<area shape="rect" id="node3" href="$class_console__graphics.html#a4b20f4a9ea5fad4820ddd1fe2232affc" title="Console_graphics::print\l_toolbar" alt="" coords="234,70,393,111"/>
+<area shape="rect" id="node5" href="$class_console__info.html#ac75c6db03c6bda9b33de56696b6a18d4" title="Console_info::success" alt="" coords="236,136,391,163"/>
+<area shape="rect" id="node6" href="$class_console__info.html#a29875cecf1aa23eceac4bb46d4df7598" title="Console_info::fail" alt="" coords="252,187,375,213"/>
+<area shape="rect" id="node4" href="$console_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="453,77,504,104"/>
 </map>

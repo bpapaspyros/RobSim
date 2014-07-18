@@ -1,13 +1,13 @@
 <map id="Gui_sim::draw_map" name="Gui_sim::draw_map">
-<area shape="rect" id="node3" href="$class_map.html#adef9516dd475e67aa7f819a6a358f668" title="Map::get_height" alt="" coords="236,5,351,35"/>
-<area shape="rect" id="node5" href="$class_map.html#a38609ea6ce07bc5bb2ea55db6580b355" title="Map::get_width" alt="" coords="239,59,348,88"/>
-<area shape="rect" id="node7" href="$class_robot__management.html#a9f55e341be1e0c8d5a532b63a31b5115" title="Robot_management::checkFor\lRobots" alt="" coords="193,111,393,158"/>
-<area shape="rect" id="node9" href="$class_gui__sim.html#a9577f2cf114ebc2575c155a83f26c826" title="Gui_sim::draw_custom\l_square" alt="" coords="216,231,371,278"/>
-<area shape="rect" id="node11" href="$class_gui__shapes.html#a2f9f6ec185170f2c88051bf3386af45d" title="Gui_shapes::square" alt="" coords="444,211,583,240"/>
-<area shape="rect" id="node16" href="$class_gui__shapes.html#a8b54490d09fe63584e74a2711d310536" title="Gui_shapes::chechInsideSq" alt="" coords="201,301,385,331"/>
-<area shape="rect" id="node18" href="$class_gui__menus.html#a36b5bf60d6fb755a34ab7acb100ffac6" title="Gui_menus::round_info" alt="" coords="216,355,371,384"/>
-<area shape="rect" id="node24" href="$class_gui__menus.html#a0380d9b643007661b1f9d80fb6e97c23" title="Gui_menus::base_info" alt="" coords="217,408,369,437"/>
-<area shape="rect" id="node13" href="$class_gui__shapes.html#a30338d7a252b614e735e0367ea709a42" title="Gui_shapes::rect" alt="" coords="633,211,753,240"/>
-<area shape="rect" id="node20" href="$class_gui__print.html#a531bb6aa6c53e440b291f3bd62cd7711" title="Gui_print::bmpString" alt="" coords="443,408,584,437"/>
-<area shape="rect" id="node22" href="$class_gui__print.html#aa7f1ef73b3fa497738ec378bcf447fed" title="Gui_print::bmpChar" alt="" coords="447,355,580,384"/>
+<area shape="rect" id="node2" href="$class_map.html#adef9516dd475e67aa7f819a6a358f668" title="Map::get_height" alt="" coords="236,5,351,32"/>
+<area shape="rect" id="node3" href="$class_map.html#a38609ea6ce07bc5bb2ea55db6580b355" title="Map::get_width" alt="" coords="238,56,349,83"/>
+<area shape="rect" id="node4" href="$class_robot__management.html#a9f55e341be1e0c8d5a532b63a31b5115" title="Robot_management::checkFor\lRobots" alt="" coords="193,107,394,149"/>
+<area shape="rect" id="node5" href="$class_gui__sim.html#a9577f2cf114ebc2575c155a83f26c826" title="Gui_sim::draw_custom\l_square" alt="" coords="215,225,371,266"/>
+<area shape="rect" id="node6" href="$class_gui__shapes.html#a2f9f6ec185170f2c88051bf3386af45d" title="Gui_shapes::square" alt="" coords="444,203,583,229"/>
+<area shape="rect" id="node8" href="$class_gui__shapes.html#a8b54490d09fe63584e74a2711d310536" title="Gui_shapes::chechInsideSq" alt="" coords="201,291,386,317"/>
+<area shape="rect" id="node9" href="$class_gui__menus.html#a36b5bf60d6fb755a34ab7acb100ffac6" title="Gui_menus::round_info" alt="" coords="215,341,371,368"/>
+<area shape="rect" id="node12" href="$class_gui__menus.html#a0380d9b643007661b1f9d80fb6e97c23" title="Gui_menus::base_info" alt="" coords="217,392,369,419"/>
+<area shape="rect" id="node7" href="$class_gui__shapes.html#a30338d7a252b614e735e0367ea709a42" title="Gui_shapes::rect" alt="" coords="633,203,754,229"/>
+<area shape="rect" id="node10" href="$class_gui__print.html#a531bb6aa6c53e440b291f3bd62cd7711" title="Gui_print::bmpString" alt="" coords="443,392,584,419"/>
+<area shape="rect" id="node11" href="$class_gui__print.html#aa7f1ef73b3fa497738ec378bcf447fed" title="Gui_print::bmpChar" alt="" coords="446,341,581,368"/>
 </map>

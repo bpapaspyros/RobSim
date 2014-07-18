@@ -1,5 +1,5 @@
 <map id="Vehicle::get_ability" name="Vehicle::get_ability">
-<area shape="rect" id="node3" href="$class_probability.html#af53f1705884b7d1b1fd658e3b525ee38" title="Probability::takeDamage" alt="" coords="187,5,352,35"/>
-<area shape="rect" id="node7" href="$class_vehicle.html#a7e287f67c54968a70d46ce63a94e9c63" title="Vehicle::move" alt="" coords="217,59,321,88"/>
-<area shape="rect" id="node5" href="$class_gui__sim.html#ae290c48db83ff530e74f79692a1cfc69" title="Gui_sim::runSim" alt="" coords="401,5,519,35"/>
+<area shape="rect" id="node2" href="$class_probability.html#af53f1705884b7d1b1fd658e3b525ee38" title="Probability::takeDamage" alt="" coords="187,5,352,32"/>
+<area shape="rect" id="node4" href="$class_vehicle.html#a7e287f67c54968a70d46ce63a94e9c63" title="Vehicle::move" alt="" coords="217,56,322,83"/>
+<area shape="rect" id="node3" href="$class_gui__sim.html#ae290c48db83ff530e74f79692a1cfc69" title="Gui_sim::runSim" alt="" coords="401,5,519,32"/>
 </map>

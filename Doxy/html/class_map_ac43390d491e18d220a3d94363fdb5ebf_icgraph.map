@@ -1,5 +1,5 @@
 <map id="Map::get_average_danger" name="Map::get_average_danger">
-<area shape="rect" id="node3" href="$class_console__info.html#afa4567c4eeccc5ea70fe33a0bcfef4fd" title="Console_info::general_info" alt="" coords="227,32,403,61"/>
-<area shape="rect" id="node5" href="$class_console__info.html#ac75c6db03c6bda9b33de56696b6a18d4" title="Console_info::success" alt="" coords="451,5,605,35"/>
-<area shape="rect" id="node7" href="$class_console__info.html#a29875cecf1aa23eceac4bb46d4df7598" title="Console_info::fail" alt="" coords="467,59,589,88"/>
+<area shape="rect" id="node2" href="$class_console__info.html#afa4567c4eeccc5ea70fe33a0bcfef4fd" title="Console_info::general_info" alt="" coords="227,31,403,57"/>
+<area shape="rect" id="node3" href="$class_console__info.html#ac75c6db03c6bda9b33de56696b6a18d4" title="Console_info::success" alt="" coords="451,5,605,32"/>
+<area shape="rect" id="node4" href="$class_console__info.html#a29875cecf1aa23eceac4bb46d4df7598" title="Console_info::fail" alt="" coords="467,56,589,83"/>
 </map>

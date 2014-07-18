@@ -1,8 +1,8 @@
 <map id="Vehicle::set_pos_x" name="Vehicle::set_pos_x">
-<area shape="rect" id="node3" href="$class_analysis_robot.html#a496ce06a9eee3fcbb521dd6eb9ef7947" title="AnalysisRobot::operate" alt="" coords="417,5,575,35"/>
-<area shape="rect" id="node5" href="$class_vehicle.html#a32d6fb4b960170d7a88c9ba4cdf30710" title="Vehicle::returnToMap" alt="" coords="203,32,349,61"/>
-<area shape="rect" id="node8" href="$class_vehicle.html#a7c78e8942102b824144cc227984ea988" title="Vehicle::checkRobotDeath" alt="" coords="187,85,365,115"/>
-<area shape="rect" id="node11" href="$class_rescue_robot.html#a59762f159a621047e2ffc0be0cf46c9d" title="RescueRobot::operate" alt="" coords="420,59,572,88"/>
-<area shape="rect" id="node13" href="$class_research_robot.html#a275cc9e973d7c2b28a0346d485905b08" title="ResearchRobot::operate" alt="" coords="415,112,577,141"/>
-<area shape="rect" id="node15" href="$class_vehicle.html#a7e287f67c54968a70d46ce63a94e9c63" title="Vehicle::move" alt="" coords="444,165,548,195"/>
+<area shape="rect" id="node2" href="$class_analysis_robot.html#a496ce06a9eee3fcbb521dd6eb9ef7947" title="AnalysisRobot::operate" alt="" coords="417,5,575,32"/>
+<area shape="rect" id="node3" href="$class_vehicle.html#a32d6fb4b960170d7a88c9ba4cdf30710" title="Vehicle::returnToMap" alt="" coords="203,31,349,57"/>
+<area shape="rect" id="node4" href="$class_vehicle.html#a7c78e8942102b824144cc227984ea988" title="Vehicle::checkRobotDeath" alt="" coords="187,81,365,108"/>
+<area shape="rect" id="node5" href="$class_rescue_robot.html#a59762f159a621047e2ffc0be0cf46c9d" title="RescueRobot::operate" alt="" coords="419,56,573,83"/>
+<area shape="rect" id="node6" href="$class_research_robot.html#a275cc9e973d7c2b28a0346d485905b08" title="ResearchRobot::operate" alt="" coords="414,107,578,133"/>
+<area shape="rect" id="node7" href="$class_vehicle.html#a7e287f67c54968a70d46ce63a94e9c63" title="Vehicle::move" alt="" coords="443,157,549,184"/>
 </map>

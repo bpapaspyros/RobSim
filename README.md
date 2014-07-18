@@ -28,4 +28,4 @@ With Graphics
 ./RobsimGui
 ```
 
-* There is a generated doxy for the code documentation, just run the script doxy.sh. There is also a pdf report (in Greek) with a short desription of the projects purposes and the outcome.
+* There is a generated doxy for the code documentation, just run the script doxy.sh. 

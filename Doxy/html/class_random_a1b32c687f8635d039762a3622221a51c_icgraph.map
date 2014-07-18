@@ -1,5 +1,5 @@
 <map id="Random::random_int" name="Random::random_int">
-<area shape="rect" id="node3" href="$class_random.html#aded9aa728d247e3a8bdc86b89db1c303" title="Random::random_0_to_1" alt="" coords="197,5,365,35"/>
-<area shape="rect" id="node5" href="$class_vehicle.html#aef579c9dd3b44a77ceb3addd4fefc47b" title="Vehicle::Vehicle" alt="" coords="415,32,529,61"/>
-<area shape="rect" id="node8" href="$class_vehicle.html#a7e287f67c54968a70d46ce63a94e9c63" title="Vehicle::move" alt="" coords="229,109,333,139"/>
+<area shape="rect" id="node2" href="$class_random.html#aded9aa728d247e3a8bdc86b89db1c303" title="Random::random_0_to_1" alt="" coords="197,5,365,32"/>
+<area shape="rect" id="node3" href="$class_vehicle.html#aef579c9dd3b44a77ceb3addd4fefc47b" title="Vehicle::Vehicle" alt="" coords="414,31,530,57"/>
+<area shape="rect" id="node4" href="$class_vehicle.html#a7e287f67c54968a70d46ce63a94e9c63" title="Vehicle::move" alt="" coords="229,107,334,133"/>
 </map>

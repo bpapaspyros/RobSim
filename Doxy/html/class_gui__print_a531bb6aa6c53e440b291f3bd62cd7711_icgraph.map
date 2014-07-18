@@ -1,6 +1,6 @@
 <map id="Gui_print::bmpString" name="Gui_print::bmpString">
-<area shape="rect" id="node3" href="$class_gui__menus.html#a9a6a464bbe50b7895ce2f09f09d7c752" title="Gui_menus::controls" alt="" coords="203,5,344,35"/>
-<area shape="rect" id="node5" href="$class_gui__menus.html#a0380d9b643007661b1f9d80fb6e97c23" title="Gui_menus::base_info" alt="" coords="197,59,349,88"/>
-<area shape="rect" id="node9" href="$class_gui__menus.html#a36b5bf60d6fb755a34ab7acb100ffac6" title="Gui_menus::round_info" alt="" coords="196,112,351,141"/>
-<area shape="rect" id="node7" href="$class_gui__sim.html#ac6cf2c2801ef0ed361d0c008af1af029" title="Gui_sim::draw_map" alt="" coords="400,85,539,115"/>
+<area shape="rect" id="node2" href="$class_gui__menus.html#a9a6a464bbe50b7895ce2f09f09d7c752" title="Gui_menus::controls" alt="" coords="202,5,345,32"/>
+<area shape="rect" id="node3" href="$class_gui__menus.html#a0380d9b643007661b1f9d80fb6e97c23" title="Gui_menus::base_info" alt="" coords="197,56,349,83"/>
+<area shape="rect" id="node5" href="$class_gui__menus.html#a36b5bf60d6fb755a34ab7acb100ffac6" title="Gui_menus::round_info" alt="" coords="195,107,351,133"/>
+<area shape="rect" id="node4" href="$class_gui__sim.html#ac6cf2c2801ef0ed361d0c008af1af029" title="Gui_sim::draw_map" alt="" coords="400,81,539,108"/>
 </map>

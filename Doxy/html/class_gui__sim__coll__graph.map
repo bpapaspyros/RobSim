@@ -1,5 +1,5 @@
 <map id="Gui_sim" name="Gui_sim">
-<area shape="rect" id="node2" href="$class_robot__management.html" title="Robot_management" alt="" coords="5,5,144,35"/>
-<area shape="rect" id="node4" href="$class_gui__menus.html" title="Gui_menus" alt="" coords="168,5,256,35"/>
-<area shape="rect" id="node6" href="$class_map.html" title="Map" alt="" coords="280,5,325,35"/>
+<area shape="rect" id="node2" href="$class_robot__management.html" title="Robot_management" alt="" coords="5,5,144,32"/>
+<area shape="rect" id="node3" href="$class_gui__menus.html" title="Gui_menus" alt="" coords="168,5,256,32"/>
+<area shape="rect" id="node4" href="$class_map.html" title="Map" alt="" coords="281,5,327,32"/>
 </map>
