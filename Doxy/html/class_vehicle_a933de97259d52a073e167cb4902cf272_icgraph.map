@@ -1,5 +1,0 @@
-<map id="Vehicle::set_type" name="Vehicle::set_type">
-<area shape="rect" id="node2" href="$class_analysis_robot.html#a4bc986573a8c243c3491e2c31099a50b" title="AnalysisRobot::AnalysisRobot" alt="" coords="183,5,383,32"/>
-<area shape="rect" id="node3" href="$class_rescue_robot.html#a74d8804d8bd465c17913a47676a167a0" title="RescueRobot::RescueRobot" alt="" coords="187,56,378,83"/>
-<area shape="rect" id="node4" href="$class_research_robot.html#a9a80e8a64a4b95b19e965761b4c33b17" title="ResearchRobot::ResearchRobot" alt="" coords="177,107,389,133"/>
-</map>

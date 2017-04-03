@@ -1,9 +1,0 @@
-<map id="AnalysisRobot::operate" name="AnalysisRobot::operate">
-<area shape="rect" id="node2" href="$class_vehicle.html#a7c78e8942102b824144cc227984ea988" title="Vehicle::checkRobotDeath" alt="" coords="213,86,392,112"/>
-<area shape="rect" id="node3" href="$class_vehicle.html#a5295b6b7ebd67c074896604d06f30b53" title="Vehicle::set_pos_x" alt="" coords="440,35,573,62"/>
-<area shape="rect" id="node4" href="$class_vehicle.html#a91b3331fbf7fa63198b22ded702a6a44" title="Vehicle::set_pos_y" alt="" coords="440,86,573,112"/>
-<area shape="rect" id="node5" href="$class_vehicle.html#a9528f57214d74276572e7b3858715b40" title="Vehicle::get_pos_x" alt="" coords="236,187,369,214"/>
-<area shape="rect" id="node6" href="$class_vehicle.html#af1ffe0bf89d9cdc3f55033d73d8fb283" title="Vehicle::get_pos_y" alt="" coords="236,238,369,264"/>
-<area shape="rect" id="node7" href="$class_vehicle.html#a32d6fb4b960170d7a88c9ba4cdf30710" title="Vehicle::returnToMap" alt="" coords="229,35,376,62"/>
-<area shape="rect" id="node8" href="$class_smart_base.html#a9703c903bcbe39227f6d852b944543f4" title="SmartBase::calc_exact\l_needs" alt="" coords="223,289,382,330"/>
-</map>

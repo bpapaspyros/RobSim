@@ -1,8 +1,0 @@
-<map id="/home/baios/Desktop/robsim/RobSim/include/frontend/Console/Console_graphics.h" name="/home/baios/Desktop/robsim/RobSim/include/frontend/Console/Console_graphics.h">
-<area shape="rect" id="node2" href="$_map_8h.html" title="backend/Map.h" alt="" coords="111,349,221,376"/>
-<area shape="rect" id="node3" href="$_robot__management_8h.html" title="backend/Robot_management.h" alt="" coords="103,125,305,152"/>
-<area shape="rect" id="node4" href="$_analysis_robot_8h.html" title="AnalysisRobot.h" alt="" coords="73,200,191,227"/>
-<area shape="rect" id="node7" href="$_research_robot_8h.html" title="ResearchRobot.h" alt="" coords="215,200,339,227"/>
-<area shape="rect" id="node8" href="$_rescue_robot_8h.html" title="RescueRobot.h" alt="" coords="363,200,476,227"/>
-<area shape="rect" id="node5" href="$_vehicle_8h.html" title="Vehicle.h" alt="" coords="239,275,315,301"/>
-</map>

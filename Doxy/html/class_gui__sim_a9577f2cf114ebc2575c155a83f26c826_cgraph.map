@@ -1,4 +1,0 @@
-<map id="Gui_sim::draw_custom_square" name="Gui_sim::draw_custom_square">
-<area shape="rect" id="node2" href="$class_gui__shapes.html#a2f9f6ec185170f2c88051bf3386af45d" title="Gui_shapes::square" alt="" coords="211,12,349,39"/>
-<area shape="rect" id="node3" href="$class_gui__shapes.html#a30338d7a252b614e735e0367ea709a42" title="Gui_shapes::rect" alt="" coords="398,12,519,39"/>
-</map>

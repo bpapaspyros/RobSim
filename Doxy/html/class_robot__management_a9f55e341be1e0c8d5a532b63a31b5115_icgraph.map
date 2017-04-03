@@ -1,8 +1,0 @@
-<map id="Robot_management::checkForRobots" name="Robot_management::checkForRobots">
-<area shape="rect" id="node2" href="$class_rescue_robot.html#a59762f159a621047e2ffc0be0cf46c9d" title="RescueRobot::operate" alt="" coords="271,5,425,32"/>
-<area shape="rect" id="node3" href="$class_console__info.html#a050bd493a7c149a9c70680170d19595a" title="Console_info::map_tile_info" alt="" coords="257,56,439,83"/>
-<area shape="rect" id="node4" href="$class_console__info.html#a2ade25393df6aab1fa014363b002b372" title="Console_info::robot_info" alt="" coords="267,107,429,133"/>
-<area shape="rect" id="node5" href="$class_gui__sim.html#ac6cf2c2801ef0ed361d0c008af1af029" title="Gui_sim::draw_map" alt="" coords="279,157,417,184"/>
-<area shape="rect" id="node6" href="$class_gui__sim.html#a73467161ff658d0bd334c7245f55bebe" title="Gui_sim::removeRobotPos" alt="" coords="259,208,437,235"/>
-<area shape="rect" id="node7" href="$class_gui__sim.html#affe2de35c0ebf9b76f7c07ddd76df1c2" title="Gui_sim::moveRobot" alt="" coords="275,259,421,285"/>
-</map>

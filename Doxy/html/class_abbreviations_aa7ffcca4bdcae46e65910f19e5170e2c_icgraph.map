@@ -1,8 +1,0 @@
-<map id="Abbreviations::newLine" name="Abbreviations::newLine">
-<area shape="rect" id="node2" href="$class_console__graphics.html#a4b20f4a9ea5fad4820ddd1fe2232affc" title="Console_graphics::print\l_toolbar" alt="" coords="223,5,382,46"/>
-<area shape="rect" id="node4" href="$class_console__info.html#a050bd493a7c149a9c70680170d19595a" title="Console_info::map_tile_info" alt="" coords="211,71,394,97"/>
-<area shape="rect" id="node5" href="$class_console__info.html#afa4567c4eeccc5ea70fe33a0bcfef4fd" title="Console_info::general_info" alt="" coords="215,121,391,148"/>
-<area shape="rect" id="node3" href="$console_8cpp.html#a3c04138a5bfe5d72780bb7e82a18e627" title="main" alt="" coords="495,12,545,39"/>
-<area shape="rect" id="node6" href="$class_console__info.html#ac75c6db03c6bda9b33de56696b6a18d4" title="Console_info::success" alt="" coords="443,96,597,123"/>
-<area shape="rect" id="node7" href="$class_console__info.html#a29875cecf1aa23eceac4bb46d4df7598" title="Console_info::fail" alt="" coords="459,147,581,173"/>
-</map>
